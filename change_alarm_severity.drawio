@@ -1,18 +1,144 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T08:26:57.577Z" agent="Mozilla/5.0 (iPad; CPU OS 16_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/114.0.5735.124 Mobile/15E148 Safari/604.1" etag="XaHWRoIeXUja4fZ-HHnJ" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T02:31:32.787Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jm15fmi-eopfva5z9JF0" version="21.5.2" type="github">
   <diagram name="Trang-1" id="Wo1rhTGzUEvQ1JcT_uwH">
-    <mxGraphModel dx="2113" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qsTO52kbwodbmaQSsGO7-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-460" y="340" width="30" height="30" as="geometry" />
+        <mxCell id="qsTO52kbwodbmaQSsGO7-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="100" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qsTO52kbwodbmaQSsGO7-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="qsTO52kbwodbmaQSsGO7-2" parent="1">
+        <mxCell id="qsTO52kbwodbmaQSsGO7-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" parent="1" source="qsTO52kbwodbmaQSsGO7-2" edge="1" target="-AVRFM7dDWOy6RQoxfwE-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-445" y="430" as="targetPoint" />
+            <mxPoint x="-765" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-1" value="Lấy node name của đối tượng của alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-837.5" y="180" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-2" value="Khởi tạo thông tin alarm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="100" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-1" target="-AVRFM7dDWOy6RQoxfwE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="300" as="sourcePoint" />
+            <mxPoint x="-520" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-4" value="Lấy các cấu hình change severity to NONE của node name&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-853.75" y="300" width="177.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-4" target="-AVRFM7dDWOy6RQoxfwE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="300" as="sourcePoint" />
+            <mxPoint x="-765" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-11" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="490" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-11" target="-AVRFM7dDWOy6RQoxfwE-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-570" y="590" as="sourcePoint" />
+            <mxPoint x="-520" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-445" y="340" />
+              <mxPoint x="-910" y="510" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-13" value="Bỏ cảnh báo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="560" width="177.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-14" value="Có" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-893.75" y="480" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-15" value="Kiểm tra alarm có match với cấu hình không?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-853.75" y="400" width="177.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-15" target="-AVRFM7dDWOy6RQoxfwE-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-765.5" y="450" as="sourcePoint" />
+            <mxPoint x="-765.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="-AVRFM7dDWOy6RQoxfwE-18" source="-AVRFM7dDWOy6RQoxfwE-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-535" y="510" as="sourcePoint" />
+            <mxPoint x="-250" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-640" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-18" value="Lấy các cấu hình change severity liên quan đến đối tượng của alarm" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="560" width="177.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-19" value="Không" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-633.75" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-795" y="930" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-13" target="-AVRFM7dDWOy6RQoxfwE-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-755" y="360" as="sourcePoint" />
+            <mxPoint x="-755" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-910" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-22" value="Kiểm tra alarm có match với cấu hình không?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="660" width="177.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-18" target="-AVRFM7dDWOy6RQoxfwE-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-755" y="460" as="sourcePoint" />
+            <mxPoint x="-755" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-24" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-681.25" y="750" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-24" target="-AVRFM7dDWOy6RQoxfwE-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="910" as="sourcePoint" />
+            <mxPoint x="-390" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-780" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-26" value="Thay đổi severity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="827" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-27" value="Có" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="740" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="-AVRFM7dDWOy6RQoxfwE-24" source="-AVRFM7dDWOy6RQoxfwE-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-635" y="770" as="sourcePoint" />
+            <mxPoint x="-635.5" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-24" target="-AVRFM7dDWOy6RQoxfwE-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-405" y="830" as="sourcePoint" />
+            <mxPoint x="-511" y="930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-510" y="770" />
+              <mxPoint x="-510" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-31" value="Không" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-26" target="-AVRFM7dDWOy6RQoxfwE-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-631" y="670" as="sourcePoint" />
+            <mxPoint x="-631" y="730" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
