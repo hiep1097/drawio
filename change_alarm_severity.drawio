@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T03:40:48.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3KHUZHa7x2D2b2kTvc-E" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-03T03:41:39.514Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ro-0sYtLC0lpw3gbG1_B" version="21.5.2" type="github" pages="2">
   <diagram name="Luồng hoạt động" id="Wo1rhTGzUEvQ1JcT_uwH">
-    <mxGraphModel dx="2158" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
           <mxGeometry x="-730" y="560" width="177.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-AVRFM7dDWOy6RQoxfwE-19" value="Không" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-633.75" y="480" width="60" height="30" as="geometry" />
+          <mxGeometry x="-705" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-AVRFM7dDWOy6RQoxfwE-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-795" y="1030" width="30" height="30" as="geometry" />
@@ -142,9 +142,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8kHn8ceY6mcpfSrBJ0L2-4" value="Không" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-AVRFM7dDWOy6RQoxfwE-33">
+        <mxCell id="8kHn8ceY6mcpfSrBJ0L2-4" value="Không" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="-AVRFM7dDWOy6RQoxfwE-33">
           <mxGeometry x="-0.1778" y="-1" relative="1" as="geometry">
-            <mxPoint x="-24" as="offset" />
+            <mxPoint x="18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8kHn8ceY6mcpfSrBJ0L2-1" value="8. Lưu cảnh báo vào DB" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
@@ -173,7 +173,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8kHn8ceY6mcpfSrBJ0L2-8" value="Có" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kHn8ceY6mcpfSrBJ0L2-7">
+        <mxCell id="8kHn8ceY6mcpfSrBJ0L2-8" value="Có" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="8kHn8ceY6mcpfSrBJ0L2-7">
           <mxGeometry x="-0.1778" y="-1" relative="1" as="geometry">
             <mxPoint x="-24" as="offset" />
           </mxGeometry>
@@ -189,11 +189,6 @@
               <mxPoint x="-880" y="775" />
               <mxPoint x="-880" y="1045" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8kHn8ceY6mcpfSrBJ0L2-11" value="Không" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8kHn8ceY6mcpfSrBJ0L2-10">
-          <mxGeometry x="-0.1778" y="-1" relative="1" as="geometry">
-            <mxPoint x="-24" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
