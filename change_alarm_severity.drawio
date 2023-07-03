@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T02:40:33.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="A-yACj4MxwnNne8eql6v" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-03T03:25:17.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lN3RJcIEXOvCdAi99ZEc" version="21.5.2" type="github" pages="2">
   <diagram name="Luồng hoạt động" id="Wo1rhTGzUEvQ1JcT_uwH">
-    <mxGraphModel dx="2603" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2158" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,14 +77,14 @@
           <mxGeometry x="-633.75" y="480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-AVRFM7dDWOy6RQoxfwE-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-795" y="930" width="30" height="30" as="geometry" />
+          <mxGeometry x="-795" y="1030" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-AVRFM7dDWOy6RQoxfwE-21" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-13" target="-AVRFM7dDWOy6RQoxfwE-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-755" y="360" as="sourcePoint" />
             <mxPoint x="-755" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-910" y="945" />
+              <mxPoint x="-910" y="1045" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -127,18 +127,27 @@
             <mxPoint x="-511" y="930" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-641" y="850" />
-              <mxPoint x="-641" y="945" />
+              <mxPoint x="-641" y="1045" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-AVRFM7dDWOy6RQoxfwE-31" value="Không" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-644" y="837" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-AVRFM7dDWOy6RQoxfwE-33" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-26" target="-AVRFM7dDWOy6RQoxfwE-20">
+        <mxCell id="-AVRFM7dDWOy6RQoxfwE-33" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1" source="-AVRFM7dDWOy6RQoxfwE-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-631" y="670" as="sourcePoint" />
-            <mxPoint x="-631" y="730" as="targetPoint" />
+            <mxPoint x="-780" y="930" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8kHn8ceY6mcpfSrBJ0L2-1" value="8. Lưu cảnh báo vào DB" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-868.75" y="930" width="177.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8kHn8ceY6mcpfSrBJ0L2-2" value="" style="endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1" source="8kHn8ceY6mcpfSrBJ0L2-1" target="-AVRFM7dDWOy6RQoxfwE-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-775" y="990" as="sourcePoint" />
+            <mxPoint x="-775" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
