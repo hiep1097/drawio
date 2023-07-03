@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T08:18:42.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1G7M62IeIp-Cy5gwnNRq" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-03T08:19:00.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="D4RZvLSSd1wrdEAerHWl" version="21.5.2" type="github" pages="2">
   <diagram name="Luồng hoạt động" id="Wo1rhTGzUEvQ1JcT_uwH">
     <mxGraphModel dx="1877" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -475,7 +475,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VqRLlo6rut8GXjdnDasZ-89" value="Với mỗi config detail" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=30;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1240" width="670" height="300" as="geometry" />
+          <mxGeometry x="220" y="1240" width="620" height="300" as="geometry" />
         </mxCell>
         <mxCell id="VqRLlo6rut8GXjdnDasZ-90" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="1340" width="40" height="30" as="geometry" />
