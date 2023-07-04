@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T18:16:41.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3HDxyBtWiuelVp30JXcR" version="21.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-04T18:17:25.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CX9kcTCs49sUtEorNzTu" version="21.5.2" type="github" pages="5">
   <diagram name="Luồng hoạt động" id="Wo1rhTGzUEvQ1JcT_uwH">
     <mxGraphModel dx="3243" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -725,7 +725,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9uIjEXJmMMddunkeKfOb" name="Sửa cấu hình">
-    <mxGraphModel dx="1430" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -736,7 +736,7 @@
           <mxGeometry x="20" y="86" width="10" height="564" as="geometry" />
         </mxCell>
         <mxCell id="QRhgBp1xEGxqkH2jR2GX-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="QRhgBp1xEGxqkH2jR2GX-1" vertex="1">
-          <mxGeometry x="30" y="126" width="10" height="284" as="geometry" />
+          <mxGeometry x="30" y="126" width="10" height="494" as="geometry" />
         </mxCell>
         <mxCell id="QRhgBp1xEGxqkH2jR2GX-4" value="CustomAlarmSeverityConfig" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="290" y="160" width="170" height="30" as="geometry" />
@@ -809,17 +809,17 @@
         <mxCell id="QRhgBp1xEGxqkH2jR2GX-19" value="AlarmSeverityConfigService" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="470" y="540" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QRhgBp1xEGxqkH2jR2GX-20" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="QRhgBp1xEGxqkH2jR2GX-18" edge="1">
+        <mxCell id="QRhgBp1xEGxqkH2jR2GX-20" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="380" y="680" as="sourcePoint" />
-            <mxPoint x="600" y="680" as="targetPoint" />
+            <mxPoint x="390" y="680" as="sourcePoint" />
+            <mxPoint x="550" y="680" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QRhgBp1xEGxqkH2jR2GX-21" value="updateConfigDetail(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="555" y="678" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QRhgBp1xEGxqkH2jR2GX-22" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="QRhgBp1xEGxqkH2jR2GX-22" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" target="QRhgBp1xEGxqkH2jR2GX-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="717" as="sourcePoint" />
             <mxPoint x="380" y="717.0689655172414" as="targetPoint" />
@@ -855,7 +855,7 @@
         <mxCell id="QRhgBp1xEGxqkH2jR2GX-28" value="failed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="325" y="448" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m4Pps1dn2Vg_c6t-i7pL-1" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="m4Pps1dn2Vg_c6t-i7pL-1" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="QRhgBp1xEGxqkH2jR2GX-3">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="380" y="600" as="sourcePoint" />
             <mxPoint x="550" y="600" as="targetPoint" />
@@ -865,7 +865,7 @@
         <mxCell id="m4Pps1dn2Vg_c6t-i7pL-2" value="getConfigDetail(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="555" y="598" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m4Pps1dn2Vg_c6t-i7pL-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="m4Pps1dn2Vg_c6t-i7pL-3" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="QRhgBp1xEGxqkH2jR2GX-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="637" as="sourcePoint" />
             <mxPoint x="380" y="637.0689655172414" as="targetPoint" />
