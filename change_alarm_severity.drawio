@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T07:48:07.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tGbHxL8MSvmB69hPMizP" version="21.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-04T08:02:05.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0uF2ETUk7MIxo5LKgAEr" version="21.5.2" type="github" pages="4">
   <diagram name="Luồng hoạt động" id="Wo1rhTGzUEvQ1JcT_uwH">
     <mxGraphModel dx="2603" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -725,7 +725,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9uIjEXJmMMddunkeKfOb" name="Sửa cấu hình">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -750,15 +750,15 @@
         <mxCell id="QRhgBp1xEGxqkH2jR2GX-7" value="Dashboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="158" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QRhgBp1xEGxqkH2jR2GX-8" value="AddAlarmSeverityConfigDetailRequest" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="QRhgBp1xEGxqkH2jR2GX-2">
+        <mxCell id="QRhgBp1xEGxqkH2jR2GX-8" value="UpdateAlarmSeverityConfigDetailRequest" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="QRhgBp1xEGxqkH2jR2GX-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="150" y="240" as="sourcePoint" />
             <mxPoint x="230" y="240" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QRhgBp1xEGxqkH2jR2GX-9" value="addAlarmSeverityConfigDetail(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="240" width="200" height="30" as="geometry" />
+        <mxCell id="QRhgBp1xEGxqkH2jR2GX-9" value="updateAlarmSeverityConfigDetail(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="240" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QRhgBp1xEGxqkH2jR2GX-10" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
