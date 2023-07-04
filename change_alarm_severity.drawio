@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T03:28:48.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LwI-esTfWZ4_MlrwAf-V" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-04T07:01:25.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0uVWlMfT6i96OTAuXFgd" version="21.5.2" type="github" pages="3">
   <diagram name="Luồng hoạt động" id="Wo1rhTGzUEvQ1JcT_uwH">
     <mxGraphModel dx="2603" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -583,6 +583,32 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hPffS-lZCCXw_JS2o7Tm" name="Thêm cấu hình">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m0yaM0NYjyLKZyqyakmT-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="290" y="114" width="50" height="1326" as="geometry" />
+        </mxCell>
+        <mxCell id="m0yaM0NYjyLKZyqyakmT-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="m0yaM0NYjyLKZyqyakmT-1">
+          <mxGeometry x="20" y="86" width="10" height="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="m0yaM0NYjyLKZyqyakmT-4" value="CustomAlarmSeverityConfig" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="160" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m0yaM0NYjyLKZyqyakmT-5" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="120" y="114" width="50" height="1326" as="geometry" />
+        </mxCell>
+        <mxCell id="m0yaM0NYjyLKZyqyakmT-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="m0yaM0NYjyLKZyqyakmT-5">
+          <mxGeometry x="20" y="86" width="10" height="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="m0yaM0NYjyLKZyqyakmT-7" value="DashboardBE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="158" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
