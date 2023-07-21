@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T21:58:40.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jgP_aLsNtEoAA2R0UMY9" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T21:59:53.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tu-UXtd7p_EOvspohOMt" version="21.6.2" type="github">
   <diagram name="Trang-1" id="BRMYjPsoir4g02J101XT">
     <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -85,10 +85,13 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-12" value="Dải mạng khác&lt;br&gt;hoạt động bình thường?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="1280" width="162.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.072;entryY=1.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KO4D6SolvNE0vXKj3H6f-14">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="KO4D6SolvNE0vXKj3H6f-58">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="381.25" y="1370" as="sourcePoint" />
             <mxPoint x="381.25" y="1450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="381" y="1450" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-14" value="Sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -258,6 +261,9 @@
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-57" value="Sửa chữa&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="795" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-58" value="Sửa chữa&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1430" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
