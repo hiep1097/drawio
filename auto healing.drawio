@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T21:18:57.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fHDk51alsANQLm8cmzSs" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T21:25:35.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Io3twj9YXI0YKwe_yeEv" version="21.6.2" type="github">
   <diagram name="Trang-1" id="BRMYjPsoir4g02J101XT">
-    <mxGraphModel dx="1687" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,8 +256,8 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-55" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="465" y="1280" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-56" value="Nguyên nhân lỗi:&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="675" y="28" width="110" height="30" as="geometry" />
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-56" value="Nguyên nhân lỗi:&lt;br&gt;-&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="630" y="-190" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
