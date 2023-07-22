@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T21:30:47.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2BmzHruAKtj0TH-t2mpm" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T23:19:28.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3ZbM86GEsQyoRwtR3qLy" version="21.6.2" type="github" pages="2">
   <diagram name="Trang-1" id="BRMYjPsoir4g02J101XT">
     <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -281,6 +281,44 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="940" as="sourcePoint" />
             <mxPoint x="430" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D1fGF6a5YubZh5PAjt0l" name="Trang-2">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HQvY1rfixMFgKK2FTYmp-1" value="Bước 1: xây dựng cấu trúc dữ liệu lưu trữ các thông tin&amp;nbsp; &amp;nbsp;của ứng dụng liên quan tới phát hiện và sửa chữa lỗi" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HQvY1rfixMFgKK2FTYmp-5" value="Bước 2: theo dõi hoạt động bất thường của ứng dụng" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HQvY1rfixMFgKK2FTYmp-6" value="Bước 3: tìm nguyên nhân gốc gây lỗi ứng dụng" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HQvY1rfixMFgKK2FTYmp-7" value="Bước 4: thực hiện các hành động sửa chữa ứng dụng theo cấu hình" style="rounded=1;whiteSpace=wrap;html=1;align=center;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HQvY1rfixMFgKK2FTYmp-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="HQvY1rfixMFgKK2FTYmp-1" target="HQvY1rfixMFgKK2FTYmp-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQvY1rfixMFgKK2FTYmp-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="HQvY1rfixMFgKK2FTYmp-5" target="HQvY1rfixMFgKK2FTYmp-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQvY1rfixMFgKK2FTYmp-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="HQvY1rfixMFgKK2FTYmp-6" target="HQvY1rfixMFgKK2FTYmp-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
