@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T21:25:36.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RbX8VQXhgraPrBM8AAZR" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T21:25:59.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xxMsMVCtcnGxENP4EF5e" version="21.6.2" type="github">
   <diagram name="Trang-1" id="BRMYjPsoir4g02J101XT">
     <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -208,7 +208,7 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-58" value="CHUA_XAC_DINH" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350.63" y="1090" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-62" value="8. Sửa chữa theo cấu hình" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-62" value="9. Sửa chữa theo cấu hình" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="567.75" width="140" height="64.5" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-57" target="KO4D6SolvNE0vXKj3H6f-62">
@@ -274,7 +274,7 @@
             <mxPoint x="360" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-75" value="Nguyên nhân chưa xác định" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-75" value="8. Nguyên nhân chưa xác định" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="1090" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-76" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-75" target="KO4D6SolvNE0vXKj3H6f-58">
