@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T19:05:44.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="L3HA9rNmZhKaDw7d1E75" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T20:15:18.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zhmWVklsHVGTaPEY1I6J" version="21.6.2" type="github">
   <diagram name="Trang-1" id="BRMYjPsoir4g02J101XT">
-    <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="e2LmvNg4_V7U2K4ijGKh-4" value="Trạng thái ứng dụng &lt;br&gt;lỗi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="136.25" y="150" width="147.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="e2LmvNg4_V7U2K4ijGKh-5" value="vAgent hoạt động &lt;br&gt;bình thường?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="e2LmvNg4_V7U2K4ijGKh-5" value="5. vAgent hoạt động &lt;br&gt;bình thường?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="690" width="162.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="e2LmvNg4_V7U2K4ijGKh-6" value="UNG_DUNG_LOI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -46,7 +46,7 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-2" value="Sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="770" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-3" value="Dải mạng giao tiếp &lt;br&gt;hoạt động bình thường?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-3" value="6. Dải mạng giao tiếp &lt;br&gt;hoạt động bình thường?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="121.88" y="810" width="182.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-3" target="KO4D6SolvNE0vXKj3H6f-12">
@@ -73,7 +73,7 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-8" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="827" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-12" value="Dải mạng khác&lt;br&gt;hoạt động bình thường?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-12" value="7. Dải mạng khác&lt;br&gt;hoạt động bình thường?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="121.88" y="950" width="182.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-12" target="KO4D6SolvNE0vXKj3H6f-58">
@@ -109,7 +109,7 @@
             <mxPoint x="561.25" y="855" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-30" value="Máy chủ vật lý chết?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-30" value="1. Máy chủ vật lý chết?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="128.75" y="230" width="162.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-30" target="KO4D6SolvNE0vXKj3H6f-42">
@@ -133,7 +133,7 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-35" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="292.5" y="233.13" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-36" value="Máy ảo hỏng?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-36" value="3. Máy ảo hỏng?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="128.75" y="457.5" width="162.5" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-36" target="KO4D6SolvNE0vXKj3H6f-51">
@@ -157,8 +157,8 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-41" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="296.25" y="440" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-42" value="Bộ xử lý, bộ nhớ, ổ đĩa&lt;br&gt;của máy chủ vật lý lỗi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="119.38" y="327" width="181.25" height="83" as="geometry" />
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-42" value="&amp;nbsp;2. Bộ xử lý, bộ nhớ, ổ đĩa&lt;br&gt;của máy chủ vật lý lỗi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114.69" y="327" width="190.63" height="83" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-42" target="KO4D6SolvNE0vXKj3H6f-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -181,8 +181,8 @@
         <mxCell id="KO4D6SolvNE0vXKj3H6f-47" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="296.25" y="340.5" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-51" value="Bộ xử lý, bộ nhớ, ổ đĩa &lt;br&gt;ảo của máy ảo lỗi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="119.38" y="560" width="181.25" height="80" as="geometry" />
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-51" value="4. Bộ xử lý, bộ nhớ, ổ đĩa &lt;br&gt;ảo của máy ảo lỗi?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114.69" y="560" width="190.63" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-51" target="e2LmvNg4_V7U2K4ijGKh-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
