@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-22T20:15:33.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="S5aLYXx3pXpY5Y1i9alt" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-22T20:18:01.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="t5EBmrdxEe9F_bnhcrG3" version="21.6.2" type="github">
   <diagram name="Trang-1" id="BRMYjPsoir4g02J101XT">
     <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
             <mxPoint x="561.25" y="855" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KO4D6SolvNE0vXKj3H6f-30" value="1. Máy chủ vật lý chết?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KO4D6SolvNE0vXKj3H6f-30" value="1. Máy chủ vật lý hỏng?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="128.75" y="230" width="162.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KO4D6SolvNE0vXKj3H6f-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KO4D6SolvNE0vXKj3H6f-30" target="KO4D6SolvNE0vXKj3H6f-42">
