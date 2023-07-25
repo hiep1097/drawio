@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T03:03:50.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fHHl0mw-u4V8fymPUxr7" version="21.5.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-25T03:09:56.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="E4frbGtb1VUELTOD-JOT" version="21.5.2" type="github" pages="4">
   <diagram name="Trang-1" id="BRMYjPsoir4g02J101XT">
     <mxGraphModel dx="2074" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -381,7 +381,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SapfBgKdkOk6amhVM3pQ" name="Trang-4">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -442,7 +442,7 @@
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-17" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="288.37" y="410" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-18" value="3. Dải mạng khác&lt;br&gt;hoạt động bình thường?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="SgnbfMzEEYEY_Spnn2M6-18" value="4. Dải mạng khác&lt;br&gt;hoạt động bình thường?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="101.8" y="640" width="182.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-19" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SgnbfMzEEYEY_Spnn2M6-18" target="SgnbfMzEEYEY_Spnn2M6-26" edge="1">
@@ -470,7 +470,7 @@
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-24" value="UNG_DUNG_TRUNG_GIAN_LOI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="540" y="537.5" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-26" value="4. Máy chủ vật lý hỏng?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="SgnbfMzEEYEY_Spnn2M6-26" value="5. Máy ảo hỏng?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="111.8" y="766.8800000000001" width="162.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-27" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-26" target="SgnbfMzEEYEY_Spnn2M6-38" edge="1">
@@ -482,20 +482,17 @@
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-28" value="Sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="189.92000000000002" y="840" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-29" value="MAY_CHU_VAT_LY_HONG" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="359.92" y="776.89" width="160" height="39.99" as="geometry" />
-        </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-30" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-26" target="SgnbfMzEEYEY_Spnn2M6-29" edge="1">
+        <mxCell id="SgnbfMzEEYEY_Spnn2M6-30" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-26" target="KYv6mtxvOQxoJaiewF4k-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="274.9204354971241" y="807.1476992604767" as="sourcePoint" />
-            <mxPoint x="438.01000000000005" y="878.75" as="targetPoint" />
+            <mxPoint x="359.9200000000001" y="796.8833797140196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-31" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="272.42" y="773.1300000000001" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-32" value="6. Máy ảo hỏng?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="111.8" y="986.5" width="162.5" height="52.5" as="geometry" />
+        <mxCell id="SgnbfMzEEYEY_Spnn2M6-32" value="7. Máy chủ vật lý hỏng?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="104.97" y="986.5" width="174.3" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-33" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-32" target="SgnbfMzEEYEY_Spnn2M6-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -506,19 +503,16 @@
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-34" value="Sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="189.92000000000002" y="1040" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-35" value="MAY_AO_HONG" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="359.92" y="993.0699999999999" width="120" height="39.37" as="geometry" />
-        </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-36" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-32" target="SgnbfMzEEYEY_Spnn2M6-35" edge="1">
+        <mxCell id="SgnbfMzEEYEY_Spnn2M6-36" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-32" target="KYv6mtxvOQxoJaiewF4k-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270.92" y="1031.5" as="sourcePoint" />
-            <mxPoint x="419.92" y="1106.5" as="targetPoint" />
+            <mxPoint x="359.9200000000001" y="1012.7536776568079" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-37" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="276.17" y="969" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-38" value="&amp;nbsp;5. Bộ xử lý, bộ nhớ, ổ đĩa&lt;br&gt;của máy chủ vật lý lỗi?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="SgnbfMzEEYEY_Spnn2M6-38" value="&amp;nbsp;6. Bộ xử lý, bộ nhớ, ổ đĩa&lt;br&gt;của máy chủ vật lý lỗi?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="97.74" y="867" width="190.63" height="83" as="geometry" />
         </mxCell>
         <mxCell id="SgnbfMzEEYEY_Spnn2M6-39" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-38" target="SgnbfMzEEYEY_Spnn2M6-32" edge="1">
@@ -554,9 +548,9 @@
             <mxPoint x="840" y="909" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SgnbfMzEEYEY_Spnn2M6-55" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="SgnbfMzEEYEY_Spnn2M6-35" edge="1">
+        <mxCell id="SgnbfMzEEYEY_Spnn2M6-55" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" parent="1" source="KYv6mtxvOQxoJaiewF4k-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="429.92" y="1209" as="sourcePoint" />
+            <mxPoint x="479.9200000000001" y="1012.789993334603" as="sourcePoint" />
             <mxPoint x="840" y="1013" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -587,10 +581,10 @@
         <mxCell id="KYv6mtxvOQxoJaiewF4k-3" value="TAI_NGUYEN_MAY_AO_LOI" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="359.92" y="417.5" width="180.08" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="KYv6mtxvOQxoJaiewF4k-4" value="7. Bộ xử lý, bộ nhớ, ổ đĩa&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ảo của máy ảo lỗi?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="KYv6mtxvOQxoJaiewF4k-4" value="2. Bộ xử lý, bộ nhớ, ổ đĩa&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ảo của máy ảo lỗi?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="88.13" y="400" width="206.09" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KYv6mtxvOQxoJaiewF4k-5" value="2. Dải mạng giao tiếp&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;hoạt động bình thường?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="KYv6mtxvOQxoJaiewF4k-5" value="3. Dải mạng giao tiếp&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;hoạt động bình thường?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="101.81000000000002" y="512.5" width="182.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KYv6mtxvOQxoJaiewF4k-6" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" edge="1" parent="1" source="KYv6mtxvOQxoJaiewF4k-4" target="KYv6mtxvOQxoJaiewF4k-3">
@@ -626,7 +620,10 @@
         <mxCell id="KYv6mtxvOQxoJaiewF4k-12" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" edge="1" parent="1" source="SgnbfMzEEYEY_Spnn2M6-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="549" y="695" as="sourcePoint" />
-            <mxPoint x="840" y="335" as="targetPoint" />
+            <mxPoint x="840" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="335" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KYv6mtxvOQxoJaiewF4k-13" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" edge="1" parent="1" source="KYv6mtxvOQxoJaiewF4k-3">
@@ -641,9 +638,9 @@
             <mxPoint x="840" y="558" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYv6mtxvOQxoJaiewF4k-15" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" edge="1" parent="1" source="SgnbfMzEEYEY_Spnn2M6-29">
+        <mxCell id="KYv6mtxvOQxoJaiewF4k-15" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontStyle=0" edge="1" parent="1" source="KYv6mtxvOQxoJaiewF4k-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="549" y="695" as="sourcePoint" />
+            <mxPoint x="519.9200000000001" y="796.9079954009198" as="sourcePoint" />
             <mxPoint x="840" y="797" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -664,6 +661,12 @@
               <mxPoint x="840" y="735" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KYv6mtxvOQxoJaiewF4k-20" value="MAY_CHU_VAT_LY_HONG" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="359.91999999999996" y="992.75" width="160" height="39.99" as="geometry" />
+        </mxCell>
+        <mxCell id="KYv6mtxvOQxoJaiewF4k-21" value="MAY_AO_HONG" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="359.92" y="777.1999999999999" width="120" height="39.37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
