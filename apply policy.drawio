@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T06:53:18.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="yq7ptNVaNPG9RuA2o3t9" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-16T08:45:32.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3R6ohVPDWnT7bKvfgWgS" version="21.6.9" type="github" pages="4">
   <diagram name="apply 1 vdu" id="CKxawUsicVqrMXWivAa_">
-    <mxGraphModel dx="1094" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1595" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,7 +30,7 @@
         <mxCell id="zFKqV69X8KsNwNslE9Am-9" value="9. get vim controllerHaIP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="520" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zFKqV69X8KsNwNslE9Am-10" value="11. check mode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zFKqV69X8KsNwNslE9Am-10" value="11. Init apply policy result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="520" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zFKqV69X8KsNwNslE9Am-11" value="14. send request apply to first VNFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -108,7 +108,7 @@
             <mxPoint x="720" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zFKqV69X8KsNwNslE9Am-30" value="10. Init apply policy result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zFKqV69X8KsNwNslE9Am-30" value="10. Update apply policy metadata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="520" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zFKqV69X8KsNwNslE9Am-31" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -126,10 +126,14 @@
             <mxPoint x="580" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zFKqV69X8KsNwNslE9Am-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="zFKqV69X8KsNwNslE9Am-10" target="zFKqV69X8KsNwNslE9Am-31">
+        <mxCell id="zFKqV69X8KsNwNslE9Am-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="xHj655g2m4DZKNuC1kgq-40" target="zFKqV69X8KsNwNslE9Am-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="540" as="sourcePoint" />
             <mxPoint x="790" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="825" y="580" />
+              <mxPoint x="645" y="580" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zFKqV69X8KsNwNslE9Am-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="zFKqV69X8KsNwNslE9Am-31" target="zFKqV69X8KsNwNslE9Am-17">
@@ -343,6 +347,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="510" as="sourcePoint" />
             <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xHj655g2m4DZKNuC1kgq-40" value="11. check mode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="520" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xHj655g2m4DZKNuC1kgq-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="zFKqV69X8KsNwNslE9Am-10" target="xHj655g2m4DZKNuC1kgq-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="700" as="sourcePoint" />
+            <mxPoint x="460" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
