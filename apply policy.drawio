@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T12:13:11.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="nNhfGMJdSOT3crvGwYPv" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-17T12:14:31.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lc1hdM4oEVqxemti7ul3" version="21.6.9" type="github" pages="4">
   <diagram name="apply 1 vdu" id="CKxawUsicVqrMXWivAa_">
     <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -362,7 +362,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ZDlXHjOTsLJg1Gnj-K2" name="handle apply success">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yV7GJFi9WwX1jS4SSBVd" name="hanle apply failed">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -481,10 +481,10 @@
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-91" value="8. create VnfLcmOpOcc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="240" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-92" value="11. Init apply policy result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-92" value="10. Init apply policy result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="240" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-93" value="10. Update apply policy metadata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-93" value="9. Update apply policy metadata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="240" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-94" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IjS3SzWF7ZVNljGlvj_J-93" target="IjS3SzWF7ZVNljGlvj_J-92">
@@ -499,10 +499,10 @@
             <mxPoint x="760" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-97" value="9. get vim controllerHaIP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-97" value="11. get vim controllerHaIP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="240" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-98" value="13. send request apply to all VNFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-98" value="12. send request apply to all VNFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="342" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -511,7 +511,7 @@
             <mxPoint x="380" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-100" value="14. check success all VNFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-100" value="13. check success all VNFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="342" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-101" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IjS3SzWF7ZVNljGlvj_J-100" source="IjS3SzWF7ZVNljGlvj_J-98">
@@ -538,7 +538,7 @@
             <mxPoint x="410" y="364" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-106" value="22. handle apply success" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-106" value="14. handle apply success" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="342" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-107" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IjS3SzWF7ZVNljGlvj_J-102">
@@ -547,7 +547,7 @@
             <mxPoint x="445" y="424" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-108" value="23. handle apply failed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-108" value="15. handle apply failed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="419" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-109" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -562,7 +562,7 @@
             <mxPoint x="580" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-112" value="Tổng hợp kết quả apply các VNFC, tạo đối tượng ReloadPolicyVnfResult" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-112" value="16. Tổng hợp kết quả apply các VNFC, tạo đối tượng ReloadPolicyVnfResult" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="190" y="409" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-113" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IjS3SzWF7ZVNljGlvj_J-106" target="IjS3SzWF7ZVNljGlvj_J-112">
@@ -577,7 +577,7 @@
             <mxPoint x="570" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-115" value="Tổng hợp kết quả apply các CNF, tạo đối tượng ApplyPolicyMultiResponse" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-115" value="17. Tổng hợp kết quả apply các CNF, tạo đối tượng ApplyPolicyMultiResponse" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="380" y="510" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-116" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
