@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T13:05:06.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Q85HUbOXd0wu9WWyzURr" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-17T13:29:25.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="G5Ql27A8Ft96HRnDrYvw" version="21.6.9" type="github" pages="4">
   <diagram name="apply 1 vdu" id="CKxawUsicVqrMXWivAa_">
     <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -478,8 +478,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-91" value="9. create VnfLcmOpOcc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="240" width="130" height="40" as="geometry" />
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-91" value="9. tạo ApplyPolicyVnfRequest,&lt;br&gt;create VnfLcmOpOcc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="235" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-92" value="11. Init apply policy result" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="240" width="130" height="40" as="geometry" />
@@ -505,7 +505,7 @@
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-98" value="13. send request apply to all VNFC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="342" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IjS3SzWF7ZVNljGlvj_J-91">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="260" as="sourcePoint" />
             <mxPoint x="380" y="260" as="targetPoint" />
