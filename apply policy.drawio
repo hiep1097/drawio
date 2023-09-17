@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T12:33:21.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="QB0XMdcoUAH7VG29t7HZ" version="21.6.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-17T13:03:16.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ZQ4Fhbbp99lKuauIChId" version="21.6.9" type="github" pages="4">
   <diagram name="apply 1 vdu" id="CKxawUsicVqrMXWivAa_">
     <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -405,15 +405,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-75" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="250" y="-30" width="30" height="30" as="geometry" />
+          <mxGeometry x="240" y="-150" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-76" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="IjS3SzWF7ZVNljGlvj_J-75">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="40" as="targetPoint" />
+            <mxPoint x="255" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-77" value="1. Validate request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="130" height="40" as="geometry" />
+          <mxGeometry x="190" y="-80" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-78" value="2. Check existed CNF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="40" width="130" height="40" as="geometry" />
@@ -424,7 +424,7 @@
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-80" value="4. Check existed VDU" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="40" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IjS3SzWF7ZVNljGlvj_J-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IjS3SzWF7ZVNljGlvj_J-78">
+        <mxCell id="IjS3SzWF7ZVNljGlvj_J-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="IjS3SzWF7ZVNljGlvj_J-78" source="r-3_omuydpONgu42D42p-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="60" as="sourcePoint" />
             <mxPoint x="720" y="270" as="targetPoint" />
@@ -599,7 +599,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IjS3SzWF7ZVNljGlvj_J-119" value="Kiểm tra từng VDU, CNF trong request" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=50;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="-20" width="560" height="200" as="geometry" />
+          <mxGeometry x="100" y="-20" width="800" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="r-3_omuydpONgu42D42p-2" value="1. Check same VDU of CNF in request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r-3_omuydpONgu42D42p-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IjS3SzWF7ZVNljGlvj_J-77" target="r-3_omuydpONgu42D42p-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
