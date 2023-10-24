@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-10-23T04:06:31.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.7.5" etag="E7vBHG9KaLyRXGojzXhL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-24T03:33:38.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="9d0U_QiR4g4dbXP5wcVF" version="21.7.5" type="github">
   <diagram name="Trang-1" id="MNLtQUneh9rlCiHm2gLz">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="FCyUBB_o4Qi10Djg-REU-1" parent="1" target="FCyUBB_o4Qi10Djg-REU-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-3" value="1. Lấy các rule&amp;nbsp;của Log Group tương ứng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="230" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FCyUBB_o4Qi10Djg-REU-3" target="FCyUBB_o4Qi10Djg-REU-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="340" as="sourcePoint" />
+            <mxPoint x="445" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-5" value="2. Kiểm tra log là nhạy cảm?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="340" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FCyUBB_o4Qi10Djg-REU-5" target="FCyUBB_o4Qi10Djg-REU-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="540" as="sourcePoint" />
+            <mxPoint x="445" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-8" value="3. Che giấu log nhạy cảm &lt;br&gt;theo cấu hình trong rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FCyUBB_o4Qi10Djg-REU-7" target="FCyUBB_o4Qi10Djg-REU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="400" as="sourcePoint" />
+            <mxPoint x="455" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="323" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="FCyUBB_o4Qi10Djg-REU-14" source="FCyUBB_o4Qi10Djg-REU-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652.5" y="420" as="sourcePoint" />
+            <mxPoint x="642.3235294117646" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-12" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="438" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-13" value="Sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="530" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-14" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="430" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FCyUBB_o4Qi10Djg-REU-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FCyUBB_o4Qi10Djg-REU-8" target="FCyUBB_o4Qi10Djg-REU-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="400" as="sourcePoint" />
+            <mxPoint x="455" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="323" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
