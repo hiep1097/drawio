@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T04:51:16.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="CQ7oZC1yJVuTl1SEf_V2" version="22.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-24T07:24:53.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QfX_KBlGed_o5Csz1miG" version="22.0.6" type="github" pages="4">
   <diagram name="Trang-1" id="MNLtQUneh9rlCiHm2gLz">
     <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -211,10 +211,162 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j8qmLAjOho-jbFzoAkWS" name="update">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NTytPr070iN_LnXI_guB-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="50" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-1">
+          <mxGeometry x="20" y="70" width="10" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="50" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-3">
+          <mxGeometry x="20" y="80" width="10" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-3">
+          <mxGeometry x="30" y="110" width="10" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-6" value="Dashboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-7" value="DataMaskingController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="128" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-8" value="UpsertDataMaskingRuleRequest" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="NTytPr070iN_LnXI_guB-4">
+          <mxGeometry x="0.0011" width="80" relative="1" as="geometry">
+            <mxPoint x="190" y="195" as="sourcePoint" />
+            <mxPoint x="500" y="195" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-9" value="updateDataMaskingRule(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="435" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-11" value="1. validateRequest(...)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="NTytPr070iN_LnXI_guB-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-12" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="570" y="358" width="50" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-12">
+          <mxGeometry x="20" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-12">
+          <mxGeometry x="30" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-15" value="LogGroupRepository" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-16" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0011" width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="450" as="sourcePoint" />
+            <mxPoint x="589.9999999999998" y="450" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-17" value="2. findByObjectId(logObjectId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="450" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-18" value="LogGroup" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.9999999999998" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="435" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-20" value="3. init DataMaskingRule update" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="NTytPr070iN_LnXI_guB-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="550" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-21" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="50" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-21">
+          <mxGeometry x="20" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-21">
+          <mxGeometry x="30" y="100" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-24" value="findById(ruleId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-25" value="DataMaskingRuleRepository" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0011" width="80" relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="300" as="sourcePoint" />
+            <mxPoint x="649.9999999999998" y="300" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.9999999999998" y="330" as="sourcePoint" />
+            <mxPoint x="439.9999999999998" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-28" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="740" as="sourcePoint" />
+            <mxPoint x="190" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="435" y="620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-30" value="4. check existed name" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="1" target="NTytPr070iN_LnXI_guB-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="470" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-31" value="ruleId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="188" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="650" y="650" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="660" y="670" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-34" value="findById(ruleId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="680" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-35" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0011" width="80" relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="680" as="sourcePoint" />
+            <mxPoint x="649.9999999999998" y="680" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NTytPr070iN_LnXI_guB-36" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.9999999999998" y="710" as="sourcePoint" />
+            <mxPoint x="439.9999999999998" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
