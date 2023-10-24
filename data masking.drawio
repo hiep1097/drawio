@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T07:26:56.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="uPk7tQSs73TqmxVuw49y" version="22.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-24T07:30:32.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2GVA7hUkdXs0Ldti3Oo2" version="22.0.6" type="github" pages="4">
   <diagram name="Trang-1" id="MNLtQUneh9rlCiHm2gLz">
     <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -372,10 +372,75 @@
     </mxGraphModel>
   </diagram>
   <diagram id="71q2wgkZuon3vMLD6ZBM" name="delete">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="50" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="Fd6lpT3IfbsDKDsr4jEv-1">
+          <mxGeometry x="20" y="70" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="50" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="Fd6lpT3IfbsDKDsr4jEv-3">
+          <mxGeometry x="20" y="80" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="Fd6lpT3IfbsDKDsr4jEv-3">
+          <mxGeometry x="30" y="110" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-6" value="Dashboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="145" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-7" value="DataMaskingController" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="350" y="128" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-8" value="ruleId" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" target="Fd6lpT3IfbsDKDsr4jEv-4">
+          <mxGeometry x="0.0011" width="80" relative="1" as="geometry">
+            <mxPoint x="190" y="195" as="sourcePoint" />
+            <mxPoint x="500" y="195" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-9" value="deleteDataMaskingRule(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="435" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-21" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="630" y="80" width="50" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="Fd6lpT3IfbsDKDsr4jEv-21">
+          <mxGeometry x="20" y="140" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="Fd6lpT3IfbsDKDsr4jEv-21">
+          <mxGeometry x="30" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-24" value="1. deleteById(ruleId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="660" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-25" value="DataMaskingRuleRepository" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="570" y="128" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="0.0011" width="80" relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="230" as="sourcePoint" />
+            <mxPoint x="649.9999999999998" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-27" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.9999999999998" y="260" as="sourcePoint" />
+            <mxPoint x="439.9999999999998" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fd6lpT3IfbsDKDsr4jEv-28" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="270" as="sourcePoint" />
+            <mxPoint x="190" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
