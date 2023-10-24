@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T07:24:53.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QfX_KBlGed_o5Csz1miG" version="22.0.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-24T07:25:25.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jzimB2fW9dKovcQtVQPd" version="22.0.6" type="github" pages="4">
   <diagram name="Trang-1" id="MNLtQUneh9rlCiHm2gLz">
     <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -216,19 +216,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NTytPr070iN_LnXI_guB-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="50" height="730" as="geometry" />
+          <mxGeometry x="160" y="80" width="50" height="680" as="geometry" />
         </mxCell>
         <mxCell id="NTytPr070iN_LnXI_guB-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-1">
-          <mxGeometry x="20" y="70" width="10" height="630" as="geometry" />
+          <mxGeometry x="20" y="70" width="10" height="590" as="geometry" />
         </mxCell>
         <mxCell id="NTytPr070iN_LnXI_guB-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="50" height="720" as="geometry" />
+          <mxGeometry x="400" y="80" width="50" height="680" as="geometry" />
         </mxCell>
         <mxCell id="NTytPr070iN_LnXI_guB-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-3">
-          <mxGeometry x="20" y="80" width="10" height="620" as="geometry" />
+          <mxGeometry x="20" y="80" width="10" height="580" as="geometry" />
         </mxCell>
         <mxCell id="NTytPr070iN_LnXI_guB-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NTytPr070iN_LnXI_guB-3">
-          <mxGeometry x="30" y="110" width="10" height="560" as="geometry" />
+          <mxGeometry x="30" y="110" width="10" height="540" as="geometry" />
         </mxCell>
         <mxCell id="NTytPr070iN_LnXI_guB-6" value="Dashboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="145" y="120" width="80" height="30" as="geometry" />
@@ -327,8 +327,8 @@
         </mxCell>
         <mxCell id="NTytPr070iN_LnXI_guB-28" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="740" as="sourcePoint" />
-            <mxPoint x="190" y="740" as="targetPoint" />
+            <mxPoint x="420" y="720" as="sourcePoint" />
+            <mxPoint x="190" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NTytPr070iN_LnXI_guB-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
