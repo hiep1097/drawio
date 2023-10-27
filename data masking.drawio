@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:01:56.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fV7GNYIhb7pgRk8ftnsa" version="22.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:02:40.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4RI6INkeESkZrjAqe6NT" version="22.0.6" type="github" pages="5">
   <diagram name="Trang-1" id="MNLtQUneh9rlCiHm2gLz">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -491,12 +491,13 @@
         <mxCell id="n8u019Md-kTfoQV2W5k_-25" value="ElasticSearch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="375" y="120" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MyzB4XbJ2sydEkwuj8ev-2" value="handleDataMasking(&lt;br&gt;logGroupObjectId, response)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" target="MyzB4XbJ2sydEkwuj8ev-1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="MyzB4XbJ2sydEkwuj8ev-2" value="1. handleDataMasking(&lt;br&gt;logGroupObjectId, response)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=12;" edge="1" target="MyzB4XbJ2sydEkwuj8ev-1" parent="1">
+          <mxGeometry x="0.0053" relative="1" as="geometry">
             <mxPoint x="190" y="280" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="220" y="310" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fontSize=12;" vertex="1" parent="1">
@@ -522,8 +523,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MyzB4XbJ2sydEkwuj8ev-14" value="findByLogGroupId()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="360" width="130" height="30" as="geometry" />
+        <mxCell id="MyzB4XbJ2sydEkwuj8ev-14" value="2. findByLogGroupId()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="360" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-15" value="rule enable?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="235" y="440" width="95" height="40" as="geometry" />
@@ -559,8 +560,8 @@
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-26" value="DataMaskingUtils" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="420" y="490" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MyzB4XbJ2sydEkwuj8ev-27" value="checkSensitiveData(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="465" y="550" width="150" height="30" as="geometry" />
+        <mxCell id="MyzB4XbJ2sydEkwuj8ev-27" value="3. checkSensitiveData(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="550" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-28" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0.98;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MyzB4XbJ2sydEkwuj8ev-25" target="MyzB4XbJ2sydEkwuj8ev-29">
           <mxGeometry relative="1" as="geometry">
@@ -575,7 +576,7 @@
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-39" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="600" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MyzB4XbJ2sydEkwuj8ev-40" value="lấy danh sách &lt;br&gt;DataMaskingStrategy &lt;br&gt;trong rule" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="MyzB4XbJ2sydEkwuj8ev-40" value="4. lấy danh sách &lt;br&gt;DataMaskingStrategy &lt;br&gt;trong rule" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="MyzB4XbJ2sydEkwuj8ev-29" target="MyzB4XbJ2sydEkwuj8ev-41">
@@ -593,8 +594,8 @@
             <mxPoint x="464.9999999999998" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MyzB4XbJ2sydEkwuj8ev-48" value="handleMaskingStrategy(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="465" y="730" width="170" height="30" as="geometry" />
+        <mxCell id="MyzB4XbJ2sydEkwuj8ev-48" value="5. handleMaskingStrategy(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="730" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-49" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1" target="MyzB4XbJ2sydEkwuj8ev-41">
           <mxGeometry relative="1" as="geometry">
