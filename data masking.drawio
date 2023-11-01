@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T10:43:02.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BPcuIvhgYgLDQP67kI6Y" version="22.0.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-01T07:34:23.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="pLHQmeuTPpHqFfagL0h8" version="22.0.6" type="github" pages="5">
   <diagram name="Trang-1" id="MNLtQUneh9rlCiHm2gLz">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -445,7 +445,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k-pvhGxK_9nGOnhhhp6W" name="Trang-5">
-    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -464,8 +464,8 @@
         <mxCell id="n8u019Md-kTfoQV2W5k_-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=12;" vertex="1" parent="n8u019Md-kTfoQV2W5k_-3">
           <mxGeometry x="20" y="120" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n8u019Md-kTfoQV2W5k_-18" value="CustomLogRepository" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="115" y="120" width="140" height="30" as="geometry" />
+        <mxCell id="n8u019Md-kTfoQV2W5k_-18" value="NativeQueryLogRepositoryImpl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n8u019Md-kTfoQV2W5k_-20" value="queryAsMap(...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="185" y="160" width="110" height="30" as="geometry" />
@@ -608,10 +608,13 @@
           <mxGeometry x="185" y="300" width="10" height="540" as="geometry" />
         </mxCell>
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-17" value="Với mỗi&lt;br&gt;DatamaskingRule" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;" vertex="1" parent="1">
-          <mxGeometry x="30" y="430" width="620" height="420" as="geometry" />
+          <mxGeometry y="430" width="690" height="420" as="geometry" />
         </mxCell>
         <mxCell id="MyzB4XbJ2sydEkwuj8ev-43" value="Với mỗi&lt;br&gt;DatamaskingStrategy" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=130;height=40;" vertex="1" parent="1">
           <mxGeometry x="40" y="690" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wTrm2eJvEDuMYsWshYL0-1" value="Với mỗi&lt;br&gt;Log" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="640" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
