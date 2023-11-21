@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T03:54:43.577Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nOQRHNNCBZlEgsgiyuwd" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T04:30:09.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WGPM9DpFgJ54hkE78XgN" version="22.1.3" type="github">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
-    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="18ZbggmuUgCVSDo4UCOA-19" value="vCNFM" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="570" height="510" as="geometry" />
+          <mxGeometry x="280" y="70" width="790" height="590" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-18" value="Web MANO" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="60" y="80" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-20" value="vMonitor" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="280" y="600" width="410" height="340" as="geometry" />
+          <mxGeometry x="280" y="770" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-21" value="Khởi tạo UpdateVnfRequest" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="70" y="160" width="120" height="40" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="390" y="155" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-27" value="Với mỗi monitoredUpdateInfo" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="290" y="220" width="390" height="340" as="geometry" />
+          <mxGeometry x="290" y="220" width="230" height="350" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-24" target="18ZbggmuUgCVSDo4UCOA-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -43,14 +43,86 @@
         <mxCell id="18ZbggmuUgCVSDo4UCOA-29" value="Kiểm tra CNF, VDU đủ điều kiện để giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="370" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="18ZbggmuUgCVSDo4UCOA-30" value="Là VDU đang update?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="377.5" y="354" width="105" height="60" as="geometry" />
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-30" value="Là VDU đang &lt;br&gt;thực hiện update?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="373.75" y="350" width="112.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-31" value="Thêm rule giám sát cho từng CNFC trong VDU" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="370" y="510" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-32" value="Lưu thông tin ExtendedThreshold và thực hiện giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="370" y="670" width="120" height="40" as="geometry" />
+          <mxGeometry x="370" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-36" value="Update Strategy?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="550" y="355" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-37" value="Thực hiện update &lt;br&gt;(IN, OUT)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="710" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-38" value="Rolling" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="650" y="355" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-39" value="Blue_Green" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="595" y="405" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-40" value="Thực hiện update, hoàn thành tạo cụm Green" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="540" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-42" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-28" target="18ZbggmuUgCVSDo4UCOA-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="215" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-30" target="18ZbggmuUgCVSDo4UCOA-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-29" target="18ZbggmuUgCVSDo4UCOA-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-30" target="18ZbggmuUgCVSDo4UCOA-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-46" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-36" target="18ZbggmuUgCVSDo4UCOA-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="526" y="390" as="sourcePoint" />
+            <mxPoint x="560" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-36" target="18ZbggmuUgCVSDo4UCOA-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="420" as="sourcePoint" />
+            <mxPoint x="470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-48" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-40" target="18ZbggmuUgCVSDo4UCOA-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-49" value="Xóa CNFC cũ, tạo CNFC mới" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="710" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-50" value="Thêm rule giám sát cho CNFC mới tạo thành công" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="710" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-51" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="480" y="355" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-52" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="420" y="405" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
