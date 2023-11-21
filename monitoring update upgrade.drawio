@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T04:47:09.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nCAOypB1k1K6izPJ5ElV" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-21T04:55:34.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Kwmm-8sY581dkcVi1Tc2" version="22.1.3" type="github">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
-    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="18ZbggmuUgCVSDo4UCOA-19" value="vCNFM" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="280" y="70" width="790" height="830" as="geometry" />
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-19" value="vCNFM" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="670" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="18ZbggmuUgCVSDo4UCOA-18" value="Web MANO" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="60" y="80" width="140" height="160" as="geometry" />
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-18" value="Web MANO" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-20" value="vMonitor" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="280" y="940" width="340" height="140" as="geometry" />
+          <mxGeometry x="280" y="660" width="340" height="140" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-21" value="Khởi tạo UpdateVnfRequest" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="70" y="160" width="120" height="40" as="geometry" />
@@ -50,22 +50,22 @@
           <mxGeometry x="370" y="510" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-32" value="Lưu thông tin ExtendedThreshold và thực hiện giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1010" width="120" height="40" as="geometry" />
+          <mxGeometry x="370" y="730" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-36" value="Update Strategy?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="550" y="355" width="100" height="50" as="geometry" />
+          <mxGeometry x="625" y="250" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-37" value="Thực hiện update &lt;br&gt;(IN, OUT)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="710" y="360" width="120" height="40" as="geometry" />
+          <mxGeometry x="785" y="255" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-38" value="Rolling" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="650" y="355" width="60" height="30" as="geometry" />
+          <mxGeometry x="725" y="250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-39" value="Blue_Green" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="595" y="405" width="80" height="30" as="geometry" />
+          <mxGeometry x="670" y="300" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-40" value="Thực hiện update, hoàn thành tạo cụm Green" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="540" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="615" y="335" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-42" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-28" target="18ZbggmuUgCVSDo4UCOA-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -87,30 +87,34 @@
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-30" target="18ZbggmuUgCVSDo4UCOA-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="420" as="sourcePoint" />
-            <mxPoint x="440" y="450" as="targetPoint" />
+            <mxPoint x="561.25" y="275" as="sourcePoint" />
+            <mxPoint x="515" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="380" />
+              <mxPoint x="560" y="275" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-46" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-36" target="18ZbggmuUgCVSDo4UCOA-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="526" y="390" as="sourcePoint" />
-            <mxPoint x="560" y="390" as="targetPoint" />
+            <mxPoint x="601" y="285" as="sourcePoint" />
+            <mxPoint x="635" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-36" target="18ZbggmuUgCVSDo4UCOA-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="420" as="sourcePoint" />
-            <mxPoint x="470" y="450" as="targetPoint" />
+            <mxPoint x="545" y="315" as="sourcePoint" />
+            <mxPoint x="545" y="345" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-49" value="Xóa CNFC cũ, tạo CNFC mới" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="710" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="785" y="335" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-50" value="Thêm rule giám sát cho CNFC mới tạo thành công" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="710" y="650" width="120" height="40" as="geometry" />
+          <mxGeometry x="785" y="465" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-51" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="480" y="355" width="40" height="30" as="geometry" />
+          <mxGeometry x="555" y="250" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-52" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="420" y="405" width="50" height="30" as="geometry" />
@@ -123,27 +127,27 @@
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-55" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-37" target="18ZbggmuUgCVSDo4UCOA-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="490" as="sourcePoint" />
-            <mxPoint x="440" y="520" as="targetPoint" />
+            <mxPoint x="515" y="385" as="sourcePoint" />
+            <mxPoint x="515" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="18ZbggmuUgCVSDo4UCOA-56" value="Với mỗi monitoredUpdateInfo" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;align=left;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="470" y="580" width="410" height="280" as="geometry" />
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-56" value="Với mỗi monitoredUpdateInfo của VDU thực hiện Update" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=105;height=55;align=left;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="555" y="395" width="380" height="140" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-57" value="Thêm rule giám sát cho từng CNFC trong VDU" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="540" y="650" width="120" height="40" as="geometry" />
+          <mxGeometry x="615" y="465" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-58" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-49" target="18ZbggmuUgCVSDo4UCOA-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="490" as="sourcePoint" />
-            <mxPoint x="770" y="610" as="targetPoint" />
+            <mxPoint x="685" y="385" as="sourcePoint" />
+            <mxPoint x="845" y="505" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-59" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-40" target="18ZbggmuUgCVSDo4UCOA-57">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="599.9999999999998" y="680" as="sourcePoint" />
-            <mxPoint x="440" y="520" as="targetPoint" />
+            <mxPoint x="674.9999999999998" y="575" as="sourcePoint" />
+            <mxPoint x="515" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-61" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
@@ -173,18 +177,18 @@
         <mxCell id="18ZbggmuUgCVSDo4UCOA-67" value="" style="endArrow=none;html=1;rounded=0;fontSize=11;endFill=0;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-57">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="560" as="sourcePoint" />
-            <mxPoint x="430" y="790" as="targetPoint" />
+            <mxPoint x="430" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="600" y="790" />
+              <mxPoint x="675" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-68" value="" style="endArrow=none;html=1;rounded=0;fontSize=11;endFill=0;" edge="1" parent="1" source="18ZbggmuUgCVSDo4UCOA-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="570" as="sourcePoint" />
-            <mxPoint x="510" y="790" as="targetPoint" />
+            <mxPoint x="525" y="465" as="sourcePoint" />
+            <mxPoint x="430" y="620" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="770" y="790" />
+              <mxPoint x="845" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
