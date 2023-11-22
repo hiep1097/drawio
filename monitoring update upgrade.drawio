@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-22T02:25:59.877Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="KrP9pMIqwH_Nt8uRX59E" version="22.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-22T02:41:28.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WT98kTXskmYub8fh7TIY" version="22.1.3" type="github" pages="4">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -391,16 +391,61 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="z2kSWhyrD3tZ7sdu_kcI-1" value="1. Hoàn thành luồng Update/Upgrade (thành công, lỗi)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="150" width="190" height="60" as="geometry" />
+          <mxGeometry x="110" y="140" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z2kSWhyrD3tZ7sdu_kcI-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="z2kSWhyrD3tZ7sdu_kcI-1" target="z2kSWhyrD3tZ7sdu_kcI-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="430" as="sourcePoint" />
-            <mxPoint x="610" y="380" as="targetPoint" />
+            <mxPoint x="540" y="420" as="sourcePoint" />
+            <mxPoint x="590" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z2kSWhyrD3tZ7sdu_kcI-3" value="2.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="150" width="190" height="60" as="geometry" />
+        <mxCell id="z2kSWhyrD3tZ7sdu_kcI-3" value="2. Lấy danh sách MonitoredUpdateInfos trong VnfLcmOpOcc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8zMuBKjFPMk0OLuDIi6-1" value="3. Request đến vMonitor xóa rule giám sát tương ứng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x8zMuBKjFPMk0OLuDIi6-3" value="Với mỗi phần tử" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;" vertex="1" parent="1">
+          <mxGeometry x="570" y="70" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="x8zMuBKjFPMk0OLuDIi6-6" value="vMonitor" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="x8zMuBKjFPMk0OLuDIi6-7" value="vCNFM" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="970" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="2B7PW0V90Qa0Nfs2IxW9-1" value="4. Xử lý xóa rule giám sát" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="384" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2B7PW0V90Qa0Nfs2IxW9-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="z2kSWhyrD3tZ7sdu_kcI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="180" as="sourcePoint" />
+            <mxPoint x="570" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2B7PW0V90Qa0Nfs2IxW9-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="x8zMuBKjFPMk0OLuDIi6-1" target="2B7PW0V90Qa0Nfs2IxW9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="190" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2B7PW0V90Qa0Nfs2IxW9-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="x8zMuBKjFPMk0OLuDIi6-3" target="2B7PW0V90Qa0Nfs2IxW9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="sourcePoint" />
+            <mxPoint x="940" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2B7PW0V90Qa0Nfs2IxW9-5" value="5. Xử xý hoàn thành, cập nhật trạng thái operation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2B7PW0V90Qa0Nfs2IxW9-6" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="940" y="240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2B7PW0V90Qa0Nfs2IxW9-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2B7PW0V90Qa0Nfs2IxW9-5" target="2B7PW0V90Qa0Nfs2IxW9-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="310" as="sourcePoint" />
+            <mxPoint x="610" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
