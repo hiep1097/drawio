@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T03:58:24.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="9CsAF6DBukfls7Vc-erN" version="22.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-11-24T04:14:05.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="q_usqzml9RWpNTVld_c1" version="22.1.3" type="github" pages="4">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
-    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,8 +125,8 @@
             <mxPoint x="515" y="415" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="18ZbggmuUgCVSDo4UCOA-56" value="Với mỗi monitoredUpdateInfo của VDU thực hiện Update" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=105;height=55;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="555" y="395" width="380" height="140" as="geometry" />
+        <mxCell id="18ZbggmuUgCVSDo4UCOA-56" value="Với mỗi monitoredUpdateInfo của VDU thực hiện Update" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=115;height=55;align=left;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="550" y="395" width="385" height="140" as="geometry" />
         </mxCell>
         <mxCell id="18ZbggmuUgCVSDo4UCOA-57" value="10. Thêm rule giám sát cho từng CNFC mới trong VDU" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="615" y="465" width="120" height="40" as="geometry" />
