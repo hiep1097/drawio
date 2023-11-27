@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T18:11:40.793Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="dnzFxiWDeLsw6WpuVJIe" version="22.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-27T18:55:18.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4aKKa7pLX8IdlycKB6ti" version="22.1.4" type="github" pages="5">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="819" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -521,7 +521,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1JXMHqpem0apK5Fm-kut" name="Trang-5">
-    <mxGraphModel dx="1185" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -594,7 +594,7 @@
         <mxCell id="AGAqjnDJmhqlrJRv8THU-24" value="Lưu vào DB thông tin về &lt;br&gt;luồng Update/Upgrade &lt;br&gt;và các rule sử dụng giám sát" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="536" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AGAqjnDJmhqlrJRv8THU-25" value="Threshold Config &lt;br&gt;&amp;amp; &lt;br&gt;ExtendThreshold" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;shadow=0;" parent="1" vertex="1">
+        <mxCell id="AGAqjnDJmhqlrJRv8THU-25" value="ThresholdConfig &lt;br&gt;&amp;amp; &lt;br&gt;ExtendThreshold" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="378" y="227.5" width="94" height="125" as="geometry" />
         </mxCell>
         <mxCell id="AGAqjnDJmhqlrJRv8THU-26" value="" style="endArrow=classic;html=1;rounded=0;shadow=0;" parent="1" source="AGAqjnDJmhqlrJRv8THU-3" target="AGAqjnDJmhqlrJRv8THU-25" edge="1">
