@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T21:00:22.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9IioJh7Y48LMX1cSOLy7" version="22.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-27T21:01:30.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MXrltxf1YE0KSbtJOf7L" version="22.1.4" type="github" pages="6">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -680,7 +680,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WpOv6qdLHEQbRWblEvLC" name="Trang-6">
-    <mxGraphModel dx="988" dy="1701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="2101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -717,7 +717,7 @@
         <mxCell id="SZCZuhwttCz2J-SXytMu-10" value="6. Lấy thông tin CNF, VDU trong DB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="348.5" y="345" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SZCZuhwttCz2J-SXytMu-14" value="11. Thực hiện theo mode (IN, OUT)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="SZCZuhwttCz2J-SXytMu-14" value="12. Thực hiện theo mode (IN, OUT)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="590" y="425" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="SZCZuhwttCz2J-SXytMu-10">
@@ -795,7 +795,7 @@
         <mxCell id="SZCZuhwttCz2J-SXytMu-71" value="vMonitor" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="451" y="830" width="299" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="SZCZuhwttCz2J-SXytMu-72" value="14. Xử lý thêm rule giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="SZCZuhwttCz2J-SXytMu-72" value="16. Xử lý thêm rule giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="541" y="850" width="149" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-73" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.201;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SZCZuhwttCz2J-SXytMu-72">
@@ -822,7 +822,7 @@
             <mxPoint x="591" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SZCZuhwttCz2J-SXytMu-76" value="1. Thực hiện ROLLING Update/Upgrade có giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="SZCZuhwttCz2J-SXytMu-76" value="11. Thực hiện ROLLING Update/Upgrade &lt;br&gt;có giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="560" y="307.5" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.272;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="SZCZuhwttCz2J-SXytMu-76" target="SZCZuhwttCz2J-SXytMu-14">
@@ -831,10 +831,10 @@
             <mxPoint x="681" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SZCZuhwttCz2J-SXytMu-81" value="12. Xóa CNFC cũ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="SZCZuhwttCz2J-SXytMu-81" value="13. Xóa CNFC cũ" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="730" y="380" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SZCZuhwttCz2J-SXytMu-82" value="12. Tạo CNFC mới" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="SZCZuhwttCz2J-SXytMu-82" value="14. Tạo CNFC mới" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="730" y="475" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-90" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="SZCZuhwttCz2J-SXytMu-14" target="SZCZuhwttCz2J-SXytMu-81">
@@ -866,7 +866,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SZCZuhwttCz2J-SXytMu-94" value="13. Thêm rule giám sát cho CNFC mới tạo thành công" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="SZCZuhwttCz2J-SXytMu-94" value="15. Thêm rule giám sát cho CNFC mới tạo thành công" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="730" y="570" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-95" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="1" source="SZCZuhwttCz2J-SXytMu-82" target="SZCZuhwttCz2J-SXytMu-94">
