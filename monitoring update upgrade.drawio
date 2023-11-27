@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T21:01:30.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MXrltxf1YE0KSbtJOf7L" version="22.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-27T21:01:37.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wuAoMUqQ3b_bY5WY09UJ" version="22.1.4" type="github" pages="6">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="2074" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -793,7 +793,7 @@
           <mxGeometry x="350" y="645" width="118.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-71" value="vMonitor" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="451" y="830" width="299" height="130" as="geometry" />
+          <mxGeometry x="451" y="830" width="299" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-72" value="16. Xử lý thêm rule giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="541" y="850" width="149" height="50" as="geometry" />
