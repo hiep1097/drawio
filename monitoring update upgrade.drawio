@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T04:48:07.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="39r2km3Xqs4oMK6dI2A7" version="22.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-28T07:43:50.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="i_sy1-xCQwUREk0eXOAk" version="22.1.4" type="github" pages="7">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -903,7 +903,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MbiXs7hE6Q-DG4UW3xhT" name="Trang-8">
-    <mxGraphModel dx="988" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -921,13 +921,16 @@
         <mxCell id="APAMi-30txKXo6B0KIQu-4" value="1. Kiểm tra danh sách request đầu vào" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="340" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="APAMi-30txKXo6B0KIQu-5" value="null || empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="APAMi-30txKXo6B0KIQu-5" value="null or empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="420" width="100" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="APAMi-30txKXo6B0KIQu-6" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-5" target="APAMi-30txKXo6B0KIQu-32">
+        <mxCell id="APAMi-30txKXo6B0KIQu-6" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-5">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="1080" y="985" as="targetPoint" />
-            <mxPoint x="809.9999999999998" y="435" as="sourcePoint" />
+            <mxPoint x="1000" y="960" as="targetPoint" />
+            <mxPoint x="740" y="432.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="448" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="APAMi-30txKXo6B0KIQu-7" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="APAMi-30txKXo6B0KIQu-6">
@@ -972,16 +975,6 @@
         <mxCell id="APAMi-30txKXo6B0KIQu-20" value="tìm thấy" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="915" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="APAMi-30txKXo6B0KIQu-21" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-20" target="APAMi-30txKXo6B0KIQu-32">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="910" y="1085" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="APAMi-30txKXo6B0KIQu-22" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="APAMi-30txKXo6B0KIQu-21">
-          <mxGeometry x="-0.1007" relative="1" as="geometry">
-            <mxPoint x="88" y="-10" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="APAMi-30txKXo6B0KIQu-23" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;rounded=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-20" target="APAMi-30txKXo6B0KIQu-25">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="690" y="1205" as="targetPoint" />
@@ -1009,10 +1002,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="APAMi-30txKXo6B0KIQu-31" value="5. commit transaction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="1245" width="170" height="60" as="geometry" />
+          <mxGeometry x="605" y="1240" width="170" height="45" as="geometry" />
         </mxCell>
         <mxCell id="APAMi-30txKXo6B0KIQu-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="970" width="30" height="30" as="geometry" />
+          <mxGeometry x="980" y="960" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="APAMi-30txKXo6B0KIQu-33" value="0. API nhận được &lt;br&gt;danh sách request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="368" width="120" height="40" as="geometry" />
@@ -1021,41 +1014,27 @@
           <mxGeometry x="530" y="585" width="310" height="625" as="geometry" />
         </mxCell>
         <mxCell id="APAMi-30txKXo6B0KIQu-35" value="success?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1345" width="80" height="40" as="geometry" />
+          <mxGeometry x="650" y="1320" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="APAMi-30txKXo6B0KIQu-36" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-35" target="APAMi-30txKXo6B0KIQu-32">
+        <mxCell id="APAMi-30txKXo6B0KIQu-37" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;rounded=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-35">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="830" y="1465" as="targetPoint" />
+            <mxPoint x="1000" y="980" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="890" y="1465" />
-              <mxPoint x="890" y="985" />
+              <mxPoint x="690" y="1390" />
+              <mxPoint x="1000" y="1390" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="APAMi-30txKXo6B0KIQu-37" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-35" target="APAMi-30txKXo6B0KIQu-32">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="690" y="1545" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="690" y="1505" />
-              <mxPoint x="1015" y="1505" />
-            </Array>
+            <mxPoint x="707.5144827586209" y="1412.5172413793102" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="APAMi-30txKXo6B0KIQu-38" value="SUCCESS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="APAMi-30txKXo6B0KIQu-37">
           <mxGeometry x="-0.4137" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Y1dUkrtlXn7qCmMCOqBE-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="704.98" as="sourcePoint" />
-            <mxPoint x="1010" y="704.98" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="704.98" as="sourcePoint" />
-            <mxPoint x="1010" y="704.98" as="targetPoint" />
+            <mxPoint x="1000" y="705" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Y1dUkrtlXn7qCmMCOqBE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-13" target="APAMi-30txKXo6B0KIQu-17">
@@ -1069,6 +1048,32 @@
         </mxCell>
         <mxCell id="Y1dUkrtlXn7qCmMCOqBE-5" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="850" y="678" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="934.76" as="sourcePoint" />
+            <mxPoint x="1000" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-9" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1360" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-10" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1288" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="APAMi-30txKXo6B0KIQu-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1339.71" as="sourcePoint" />
+            <mxPoint x="1000" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-12" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="909.9971946286292" y="919.9967977749952" as="geometry" />
+        </mxCell>
+        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-13" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1059.8571946286293" y="846.5067977749952" as="geometry">
+            <mxPoint x="-182" y="495" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
