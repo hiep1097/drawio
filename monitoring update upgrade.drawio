@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T07:43:50.646Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="i_sy1-xCQwUREk0eXOAk" version="22.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-28T07:44:13.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NEK84JEGaasToh8iZXVL" version="22.1.4" type="github" pages="7">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -903,7 +903,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MbiXs7hE6Q-DG4UW3xhT" name="Trang-8">
-    <mxGraphModel dx="1430" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1070,10 +1070,8 @@
         <mxCell id="Y1dUkrtlXn7qCmMCOqBE-12" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="909.9971946286292" y="919.9967977749952" as="geometry" />
         </mxCell>
-        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-13" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1059.8571946286293" y="846.5067977749952" as="geometry">
-            <mxPoint x="-182" y="495" as="offset" />
-          </mxGeometry>
+        <mxCell id="Y1dUkrtlXn7qCmMCOqBE-14" value="ERROR" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="879.9999999999999" y="1330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
