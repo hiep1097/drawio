@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T02:09:01.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GWVc3oZ5Ht5gk6B2mxMs" version="22.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-28T02:10:10.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3MZNi2KtFQ1h-izr-SiT" version="22.1.4" type="github" pages="6">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -680,7 +680,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WpOv6qdLHEQbRWblEvLC" name="Trang-6">
-    <mxGraphModel dx="574" dy="1485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="1620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -793,10 +793,10 @@
           <mxGeometry x="350" y="605" width="118.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-71" value="vMonitor" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=40;fontSize=11;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="451" y="830" width="299" height="100" as="geometry" />
+          <mxGeometry x="443.5" y="760" width="369" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-72" value="16. Xử lý thêm rule giám sát" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="541" y="850" width="149" height="50" as="geometry" />
+          <mxGeometry x="541" y="790" width="149" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-73" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0.201;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" target="SZCZuhwttCz2J-SXytMu-72" edge="1" source="SZCZuhwttCz2J-SXytMu-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -807,13 +807,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SZCZuhwttCz2J-SXytMu-74" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;exitX=0.318;exitY=-0.036;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SZCZuhwttCz2J-SXytMu-72" target="SZCZuhwttCz2J-SXytMu-67" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="SZCZuhwttCz2J-SXytMu-74" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=11;exitX=0.399;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SZCZuhwttCz2J-SXytMu-72" target="SZCZuhwttCz2J-SXytMu-67" edge="1">
+          <mxGeometry x="-0.1092" relative="1" as="geometry">
             <mxPoint x="590" y="845" as="sourcePoint" />
             <mxPoint x="-482.5" y="860" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="590" y="630" />
+              <mxPoint x="600" y="630" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.001;exitY=0.105;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=11;" parent="1" source="SZCZuhwttCz2J-SXytMu-8" target="SZCZuhwttCz2J-SXytMu-76" edge="1">
@@ -880,7 +881,7 @@
             <mxPoint x="287.5" y="930" as="sourcePoint" />
             <mxPoint x="337.5" y="880" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="760" y="860" />
+              <mxPoint x="760" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -889,13 +890,13 @@
             <mxPoint x="315.5" y="982" as="sourcePoint" />
             <mxPoint x="317.5" y="800" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="790" y="875" />
+              <mxPoint x="790" y="815" />
               <mxPoint x="790" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-98" value="Với mỗi monitoredUpdateInfo của VDU thực hiện Update" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=55;align=left;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="600" y="520" width="280" height="105" as="geometry" />
+          <mxGeometry x="600" y="520" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-99" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;true&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="418.5" y="235" width="50" height="40" as="geometry" />
