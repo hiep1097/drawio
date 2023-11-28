@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T03:55:29.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tBeVnEhKrP8CQWl3QWra" version="22.1.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-28T03:58:08.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="PjUEOWOj99Yf0pRWt2zW" version="22.1.4" type="github" pages="7">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -685,7 +685,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SZCZuhwttCz2J-SXytMu-1" value="vCNFM" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;fontSize=11;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="260" y="-30" width="670" height="660" as="geometry" />
+          <mxGeometry x="260" y="-30" width="680" height="660" as="geometry" />
         </mxCell>
         <mxCell id="SZCZuhwttCz2J-SXytMu-2" value="Web MANO" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;fontSize=11;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="323.44" y="-190" width="177.63" height="110" as="geometry" />
