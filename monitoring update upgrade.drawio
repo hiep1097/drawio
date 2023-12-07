@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T10:56:56.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="u8gy7ttuVte7LVRuR90Y" version="22.1.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-12-07T10:57:46.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UUQuOv-jfsHuENZj5jML" version="22.1.7" type="github" pages="10">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="2074" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1394,11 +1394,11 @@
         <mxCell id="e9AeI-SiZ7k732TfY1I7-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="120" y="195" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="e9AeI-SiZ7k732TfY1I7-14" value="2.&amp;nbsp;Tạo CNFC mới" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="150" width="110" height="30" as="geometry" />
+        <mxCell id="e9AeI-SiZ7k732TfY1I7-14" value="4.&amp;nbsp;Tạo CNFC mới" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="230" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e9AeI-SiZ7k732TfY1I7-15" value="4.&amp;nbsp;Chờ đến step tiếp theo" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="240" width="150" height="30" as="geometry" />
+        <mxCell id="e9AeI-SiZ7k732TfY1I7-15" value="3.&amp;nbsp;Chờ đến step tiếp theo" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="190" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e9AeI-SiZ7k732TfY1I7-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1421,8 +1421,8 @@
             <mxPoint x="220" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e9AeI-SiZ7k732TfY1I7-20" value="3.&amp;nbsp;Add rule &amp;amp; giám sát cho CNFC mới tạo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="190" width="230" height="30" as="geometry" />
+        <mxCell id="e9AeI-SiZ7k732TfY1I7-20" value="5.&amp;nbsp;Add rule &amp;amp; giám sát cho CNFC mới tạo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="280" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e9AeI-SiZ7k732TfY1I7-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="220" y="245" width="100" height="20" as="geometry" />
@@ -1451,8 +1451,8 @@
         <mxCell id="e9AeI-SiZ7k732TfY1I7-27" value="delayTime" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="225" y="50" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e9AeI-SiZ7k732TfY1I7-28" value="5. Xóa CNFC cũ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-310" y="285" width="110" height="30" as="geometry" />
+        <mxCell id="e9AeI-SiZ7k732TfY1I7-28" value="2. Xóa CNFC cũ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="150" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="e9AeI-SiZ7k732TfY1I7-29" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="605" y="70" width="10" height="20" as="geometry" />
