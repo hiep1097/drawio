@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T08:00:15.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8TJHxyIUjpT6Zn3r-tCI" version="22.1.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-12-07T08:00:25.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="yCFT1ERmJpfzV7A3AAwJ" version="22.1.7" type="github" pages="8">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="2074" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1118,7 +1118,7 @@
           <mxGeometry x="645" y="70" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-17" value="1.Bắt đầu Update/Upgrade&lt;br&gt;&amp;nbsp;=&amp;gt; Gửi danh sách rule xuống vMonitor &lt;br&gt;active giám sát cho các VDU khác &lt;br&gt;VDU đang Update/Upgrade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-275" y="25" width="230" height="70" as="geometry" />
+          <mxGeometry x="-275" y="15" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="-5" y="180" width="50" height="20" as="geometry" />
