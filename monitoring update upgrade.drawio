@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T07:16:01.477Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="LzQMrL47nsh8MQAOq7VA" version="22.1.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-12-07T07:57:12.920Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="SlueVXF8zRLF329OL-ME" version="22.1.7" type="github" pages="8">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="2074" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -248,7 +248,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="shC6sMmtLdm_GPSAQfC7" name="Trang-2">
-    <mxGraphModel dx="3243" dy="1118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3243" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1083,54 +1083,72 @@
         <mxCell id="1" parent="0" />
         <mxCell id="_7tEikHTn4Teos7wRgN8-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="140" as="sourcePoint" />
-            <mxPoint x="995" y="140" as="targetPoint" />
+            <mxPoint x="-35" y="80" as="sourcePoint" />
+            <mxPoint x="770" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-2" value="timeline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="940" y="110" width="60" height="30" as="geometry" />
+          <mxGeometry x="715" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-3" value="0s" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="170" y="110" width="40" height="30" as="geometry" />
+          <mxGeometry x="-55" y="50" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="140" as="sourcePoint" />
-            <mxPoint x="190" y="530" as="targetPoint" />
+            <mxPoint x="-35" y="80" as="sourcePoint" />
+            <mxPoint x="-35" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-5" value="Bắt đầu Update/Upgrade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="110" width="160" height="30" as="geometry" />
+          <mxGeometry x="-205" y="50" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="190" y="175" width="30" height="20" as="geometry" />
+          <mxGeometry x="-35" y="115" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-8" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="130" width="10" height="20" as="geometry" />
+          <mxGeometry x="95" y="70" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-10" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="130" width="10" height="20" as="geometry" />
+          <mxGeometry x="245" y="70" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-13" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="130" width="10" height="20" as="geometry" />
+          <mxGeometry x="375" y="70" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-14" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="130" width="10" height="20" as="geometry" />
+          <mxGeometry x="505" y="70" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-15" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="130" width="10" height="20" as="geometry" />
+          <mxGeometry x="645" y="70" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-17" value="&amp;nbsp;Gửi danh sách rule xuống vMonitor &lt;br&gt;active giám sát cho các VDU khác VDU &lt;br&gt;đang Update/Upgrade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="155" width="230" height="60" as="geometry" />
+          <mxGeometry x="-280" y="95" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="220" y="240" width="50" height="20" as="geometry" />
+          <mxGeometry x="-5" y="180" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="_7tEikHTn4Teos7wRgN8-21" value="vMonitor ghi thông tin &lt;br&gt;giám sát vào DB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="240" width="140" height="40" as="geometry" />
+          <mxGeometry x="-215" y="180" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_7tEikHTn4Teos7wRgN8-22" value="Luồng quét ở vMonitor&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5" y="325" width="150" height="30" as="geometry" />
+        <mxCell id="_7tEikHTn4Teos7wRgN8-22" value="Luồng quét ở vMonitor tìm thấy &lt;br&gt;danh sách rule có needToUpdate = true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="320" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_7tEikHTn4Teos7wRgN8-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="45" y="270" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_7tEikHTn4Teos7wRgN8-24" value="Với mỗi rule =&amp;gt; Tạo file cấu hình và ghi vào GridFs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="384" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_7tEikHTn4Teos7wRgN8-25" value="Chờ luồng quét" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="265" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_7tEikHTn4Teos7wRgN8-26" value="Notify cho vProm download file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="430" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLckhOCwOaTUlFA83HQJ-1" value="vProm download file" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="490" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLckhOCwOaTUlFA83HQJ-2" value="Prometheus/VictoriaMetric reload cấu hình" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="550" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
