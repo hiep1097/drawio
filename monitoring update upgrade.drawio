@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T01:48:32.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Yfv9rEA4WVFIfzO1K2Nq" version="22.1.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-12-08T01:53:01.759Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="uDEmGLAV7SrlUqS_e9z2" version="22.1.7" type="github" pages="10">
   <diagram name="Trang-1" id="4NF1SX2Zl0v4paSwMD6_">
     <mxGraphModel dx="2074" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1242,7 +1242,7 @@
             <mxPoint x="-80" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D3MDRasK-kzsqvuzl6LT-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
+        <mxCell id="D3MDRasK-kzsqvuzl6LT-5" value="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-80" y="100" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="D3MDRasK-kzsqvuzl6LT-6" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=11;" vertex="1" parent="1">
@@ -1254,13 +1254,13 @@
         <mxCell id="D3MDRasK-kzsqvuzl6LT-8" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="315" y="70" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="D3MDRasK-kzsqvuzl6LT-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
+        <mxCell id="D3MDRasK-kzsqvuzl6LT-12" value="2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="20" y="155" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="D3MDRasK-kzsqvuzl6LT-13" value="Luồng quét lấy danh sách&amp;nbsp;ThresholdConfig &lt;br style=&quot;font-size: 11px;&quot;&gt;có needToUpdate = true. Với mỗi &lt;br style=&quot;font-size: 11px;&quot;&gt;ThresholdConfig thực hiện các bước 3, 4." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-540" y="180" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="D3MDRasK-kzsqvuzl6LT-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
+        <mxCell id="D3MDRasK-kzsqvuzl6LT-14" value="3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="120" y="195" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="D3MDRasK-kzsqvuzl6LT-15" value="2. Chờ luồng quét" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
@@ -1296,7 +1296,7 @@
         <mxCell id="D3MDRasK-kzsqvuzl6LT-22" value="3. Tạo file cấu hình và ghi vào GridFs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-310" y="190" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D3MDRasK-kzsqvuzl6LT-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
+        <mxCell id="D3MDRasK-kzsqvuzl6LT-23" value="4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="220" y="255" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="D3MDRasK-kzsqvuzl6LT-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1">
