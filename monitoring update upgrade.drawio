@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T08:15:00.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6t4QjWDwt8BzZmBQYtSI" version="22.1.17" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-01-15T08:38:39.350Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="RlOFMYJ3SF5USmP_dqyd" version="22.1.17" type="github" pages="12">
   <diagram id="WpOv6qdLHEQbRWblEvLC" name="request update">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1240,93 +1240,114 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yvA_qUD4hPQPm4roEeGT" name="xử lý default rule ở web MANO">
-    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FLzuYVycwhSxIYn6m3mY-4" value="Khởi tạo UpdateVnfRequest" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="310" y="170" width="220" height="200" as="geometry" />
-        </mxCell>
         <mxCell id="FLzuYVycwhSxIYn6m3mY-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="80" width="100" height="40" as="geometry" />
+          <mxGeometry x="370" y="-330" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FLzuYVycwhSxIYn6m3mY-3" value="1. Khởi tạo thông tin nâng cấp (mode IN, OUT config, software, delay,...)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="332.5" y="210" width="175" height="50" as="geometry" />
+          <mxGeometry x="320" y="-130" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dYrBoQbre0ZD8jsPTIrB-2" value="2. Khởi tạo thông tin vdu cần giám sát và rule sử dụng để giám sát" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="332.5" y="290" width="175" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dYrBoQbre0ZD8jsPTIrB-3" value="3. Set các Vdu-Rule muốn sử dụng làm default" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="332.5" y="414" width="175" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dYrBoQbre0ZD8jsPTIrB-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FLzuYVycwhSxIYn6m3mY-1" target="FLzuYVycwhSxIYn6m3mY-4">
+        <mxCell id="dYrBoQbre0ZD8jsPTIrB-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FLzuYVycwhSxIYn6m3mY-1" target="90SwTyh74qEJKN8DzP_W-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="420" as="sourcePoint" />
-            <mxPoint x="560" y="370" as="targetPoint" />
+            <mxPoint x="522.5" y="190" as="sourcePoint" />
+            <mxPoint x="432.5" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dYrBoQbre0ZD8jsPTIrB-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FLzuYVycwhSxIYn6m3mY-4" target="dYrBoQbre0ZD8jsPTIrB-3">
+        <mxCell id="dYrBoQbre0ZD8jsPTIrB-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="90SwTyh74qEJKN8DzP_W-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="420" as="sourcePoint" />
-            <mxPoint x="560" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dYrBoQbre0ZD8jsPTIrB-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="dYrBoQbre0ZD8jsPTIrB-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="419.76" y="464" as="sourcePoint" />
-            <mxPoint x="420" y="510" as="targetPoint" />
+            <mxPoint x="420" y="279.9999999999998" as="sourcePoint" />
+            <mxPoint x="420" y="326" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dYrBoQbre0ZD8jsPTIrB-8" value="" style="endArrow=none;html=1;rounded=0;fontStyle=0;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="510" as="sourcePoint" />
-            <mxPoint x="520" y="510" as="targetPoint" />
+            <mxPoint x="320" y="326" as="sourcePoint" />
+            <mxPoint x="520" y="326" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dYrBoQbre0ZD8jsPTIrB-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="510" as="sourcePoint" />
-            <mxPoint x="320" y="560" as="targetPoint" />
+            <mxPoint x="320" y="326" as="sourcePoint" />
+            <mxPoint x="320" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dYrBoQbre0ZD8jsPTIrB-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="dYrBoQbre0ZD8jsPTIrB-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="510" as="sourcePoint" />
-            <mxPoint x="520" y="560" as="targetPoint" />
+            <mxPoint x="520" y="326" as="sourcePoint" />
+            <mxPoint x="520" y="376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dYrBoQbre0ZD8jsPTIrB-11" value="4. Gửi request thực hiện Update/Upgrade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="560" width="175" height="50" as="geometry" />
+        <mxCell id="dYrBoQbre0ZD8jsPTIrB-11" value="5. Gửi request thực hiện Update/Upgrade" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="376" width="175" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dYrBoQbre0ZD8jsPTIrB-12" value="4. Gửi request cập nhật &lt;br&gt;danh sách Default Rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="560" width="180" height="50" as="geometry" />
+        <mxCell id="dYrBoQbre0ZD8jsPTIrB-12" value="6. Gửi request cập nhật &lt;br&gt;danh sách Default Rule" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="376" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dYrBoQbre0ZD8jsPTIrB-14" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="690" width="100" height="40" as="geometry" />
+          <mxGeometry x="370" y="506" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dYrBoQbre0ZD8jsPTIrB-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dYrBoQbre0ZD8jsPTIrB-11" target="dYrBoQbre0ZD8jsPTIrB-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" y="730" as="sourcePoint" />
-            <mxPoint x="500" y="680" as="targetPoint" />
+            <mxPoint x="450" y="546" as="sourcePoint" />
+            <mxPoint x="500" y="496" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="320" y="710" />
+              <mxPoint x="320" y="526" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dYrBoQbre0ZD8jsPTIrB-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="dYrBoQbre0ZD8jsPTIrB-12" target="dYrBoQbre0ZD8jsPTIrB-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="348" y="620" as="sourcePoint" />
-            <mxPoint x="414" y="701" as="targetPoint" />
+            <mxPoint x="348" y="436" as="sourcePoint" />
+            <mxPoint x="414" y="517" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="710" />
+              <mxPoint x="520" y="526" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-1" value="0. Thực hiện khởi tạo request Update/Upgrade có bật monitoring" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-2" value="2. Gọi API get danh sách Default rule tương ứng của CNF, VDU &lt;br&gt;đang thực hiện operation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-3" value="3. Hiển thị danh sách default rule trên giao diện nếu có" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-4" value="4. Chỉnh sửa danh sách rule sử dụng để giám sát cho Update/Upgrade &lt;br&gt;và &lt;br&gt;Chỉnh sửa danh sách Default rule nếu cần&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="180" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="FLzuYVycwhSxIYn6m3mY-3" target="90SwTyh74qEJKN8DzP_W-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="-130" as="sourcePoint" />
+            <mxPoint x="-30" y="114" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="90SwTyh74qEJKN8DzP_W-2" target="90SwTyh74qEJKN8DzP_W-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="-70" as="sourcePoint" />
+            <mxPoint x="430" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="90SwTyh74qEJKN8DzP_W-3" target="90SwTyh74qEJKN8DzP_W-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="-70" as="sourcePoint" />
+            <mxPoint x="430" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="90SwTyh74qEJKN8DzP_W-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="90SwTyh74qEJKN8DzP_W-1" target="FLzuYVycwhSxIYn6m3mY-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="443" y="-260" as="sourcePoint" />
+            <mxPoint x="443" y="-220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="GFIARqmw1SBMZnlkMmzO" name="xử lý default rule ở CNFM">
-    <mxGraphModel dx="683" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1423,6 +1444,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ETOo8Dnc4IwW0Jo77EWT" name="get danh sách default rule">
+    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
