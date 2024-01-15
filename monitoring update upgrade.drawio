@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T08:56:45.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rx_hyfUouaN_28eXOo3n" version="22.1.17" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-01-15T08:59:15.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="lMdpGw3p_KxNiAvVVidj" version="22.1.17" type="github" pages="11">
   <diagram id="WpOv6qdLHEQbRWblEvLC" name="request update">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1370,7 +1370,7 @@
           <mxGeometry x="330" y="250" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-4" value="5. Gắn Id cho đối tượng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="420" width="180" height="50" as="geometry" />
+          <mxGeometry x="330" y="440" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-5" value="2. Fullfill tên CNF, processing VDU, các VDU được giám sát trong request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="160" width="180" height="50" as="geometry" />
@@ -1379,13 +1379,13 @@
           <mxGeometry x="570" y="250" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-7" value="6. Lưu đối tượng vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="500" width="180" height="50" as="geometry" />
+          <mxGeometry x="330" y="520" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-8" value="7. Replace đối tượng với thông tin mới vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="340" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-9" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="580" width="100" height="40" as="geometry" />
+          <mxGeometry x="370" y="600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="H_OotilGnz7D_HI2bPwq-17" target="WozGM0tAGHj0YdE-H845-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1419,14 +1419,14 @@
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="WozGM0tAGHj0YdE-H845-4" target="WozGM0tAGHj0YdE-H845-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="400" as="sourcePoint" />
-            <mxPoint x="430" y="440" as="targetPoint" />
+            <mxPoint x="430" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="WozGM0tAGHj0YdE-H845-7" target="WozGM0tAGHj0YdE-H845-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="410" as="sourcePoint" />
-            <mxPoint x="440" y="450" as="targetPoint" />
+            <mxPoint x="440" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WozGM0tAGHj0YdE-H845-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="WozGM0tAGHj0YdE-H845-2" target="WozGM0tAGHj0YdE-H845-8">
@@ -1440,9 +1440,15 @@
             <mxPoint x="460" y="430" as="sourcePoint" />
             <mxPoint x="460" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="600" />
+              <mxPoint x="660" y="620" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Mv2a2aFdke6PrkT1jkFS-1" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mv2a2aFdke6PrkT1jkFS-2" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="399" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
