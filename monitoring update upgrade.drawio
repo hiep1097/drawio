@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T09:34:39.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sAlCUfFuA4hBzRgJplCY" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-18T09:50:51.898Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NPdlrCd-aT-u_VE-OUCb" version="22.1.18" type="github" pages="13">
   <diagram id="wqoC8lq2IpsK38vi7rGb" name="xử lý thông báo đồng thời">
-    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3187" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -260,31 +260,22 @@
             <mxPoint x="980" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X139fEu5n8SQ0Y9knPl_-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-37">
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-37" target="X139fEu5n8SQ0Y9knPl_-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="1420" as="sourcePoint" />
             <mxPoint x="959.6300000000001" y="1560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X139fEu5n8SQ0Y9knPl_-44" value="updateErrorMessageWithRetryAndNotify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827.12" y="1560" width="265" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-45" value="startingRollbackOutIn/startingRollbackInOut" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827.12" y="1670" width="265" height="60" as="geometry" />
+          <mxGeometry x="827.12" y="1571" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-46" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="879.13" y="1770" width="161" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="X139fEu5n8SQ0Y9knPl_-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-44" target="X139fEu5n8SQ0Y9knPl_-45">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="970" y="1527" as="sourcePoint" />
-            <mxPoint x="969.6300000000001" y="1570" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="879.13" y="1671" width="161" height="70" as="geometry" />
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-45" target="X139fEu5n8SQ0Y9knPl_-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="970" y="1630" as="sourcePoint" />
-            <mxPoint x="970" y="1680" as="targetPoint" />
+            <mxPoint x="970" y="1531" as="sourcePoint" />
+            <mxPoint x="970" y="1581" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-49" value="Luồng startingRollback:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
