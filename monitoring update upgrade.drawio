@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T09:34:31.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="JvA7MD-7jWonnEaf9pI5" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-18T09:34:39.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sAlCUfFuA4hBzRgJplCY" version="22.1.18" type="github" pages="13">
   <diagram id="wqoC8lq2IpsK38vi7rGb" name="xử lý thông báo đồng thời">
-    <mxGraphModel dx="683" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
           <mxGeometry x="401.75" y="569" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k_wg-JOdSVcggT1hCk6q-24" value="updateErrorMessageWithRetryAndNotify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="503" y="666" width="265" height="60" as="geometry" />
+          <mxGeometry x="508" y="666" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k_wg-JOdSVcggT1hCk6q-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="k_wg-JOdSVcggT1hCk6q-14" target="k_wg-JOdSVcggT1hCk6q-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
