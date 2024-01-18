@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T09:28:02.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4vyPuIXJHeSqRslI9yit" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-18T09:30:44.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="oy4HWK1jJmtgZJuAazm_" version="22.1.18" type="github" pages="13">
   <diagram id="wqoC8lq2IpsK38vi7rGb" name="xử lý thông báo đồng thời">
-    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,7 +294,7 @@
           <mxGeometry x="385" y="1720" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-51" value="Cập nhật operationState của &lt;br&gt;VnfLcmOpOcc thành ROLLING_BACK" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="331.44" y="1850" width="257.12" height="70" as="geometry" />
+          <mxGeometry x="331.44" y="1840" width="257.12" height="70" as="geometry" />
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-50" target="X139fEu5n8SQ0Y9knPl_-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -303,7 +303,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-53" value="updateResult.getModifiedCount &amp;gt; 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="333.56" y="1982" width="255" height="86" as="geometry" />
+          <mxGeometry x="333.56" y="1960" width="255" height="86" as="geometry" />
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-51" target="X139fEu5n8SQ0Y9knPl_-53">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -323,6 +323,39 @@
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-57" value="check trạng thái hiện tại là &lt;br style=&quot;font-size: 10px;&quot;&gt;STARTING hoặc PROCESSING &lt;br style=&quot;font-size: 10px;&quot;&gt;mới thực hiện để tránh trường hợp &lt;br&gt;đang ROLLING_BACK rồi lại set &lt;br&gt;thành FAILED_TEMP và thực hiện lại" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1080" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-58" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="666.13" y="1968" width="161" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-53" target="X139fEu5n8SQ0Y9knPl_-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="1920" as="sourcePoint" />
+            <mxPoint x="540" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-60" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="607.5" y="1980" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-53" target="X139fEu5n8SQ0Y9knPl_-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1920" as="sourcePoint" />
+            <mxPoint x="460" y="2130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-62" value="Xóa task rolling và thực hiện processingRollback" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="333.56" y="2100" width="257.12" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-63" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455.25" y="2053" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-62" target="X139fEu5n8SQ0Y9knPl_-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="2080" as="sourcePoint" />
+            <mxPoint x="540" y="2030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="747" y="2135" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
