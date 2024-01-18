@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T07:52:18.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1WKExlPzplNi8tQbd1z3" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-18T08:18:40.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="JE9GBo67QLmb5s8r3W2q" version="22.1.18" type="github" pages="13">
   <diagram id="wqoC8lq2IpsK38vi7rGb" name="xử lý thông báo đồng thời">
-    <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,6 +208,93 @@
             <mxPoint x="622.5" y="1501" as="sourcePoint" />
             <mxPoint x="672.5" y="1451" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-30" value="Luồng requestRollbackCnf:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="670" y="840" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-31" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="884.62" y="857" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-32" value="Cập nhật operationState của VnfLcmOpOcc thành FAILED_TEMP&lt;br&gt;Nếu thỏa mãn điều kiện filter:&amp;nbsp;&lt;br&gt;+) Id của VnfLcmOpocc = Id trong DB&lt;br&gt;+) operationState hiện tại trong DB = STARTING hoặc PROCESSING" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="822.5" y="980" width="274.25" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-31" target="X139fEu5n8SQ0Y9knPl_-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1070" as="sourcePoint" />
+            <mxPoint x="760" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-34" value="Cập nhật state entered time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="856.93" y="1260" width="205.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-35" value="updateResult.getModifiedCount &amp;gt; 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="832.12" y="1140" width="255" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-36" value="Cập nhật state entered time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="856.93" y="1359" width="205.38" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-37" value="updateErrorMessageWithRetryAndNotify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827.13" y="1457" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-38" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-32" target="X139fEu5n8SQ0Y9knPl_-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="1360" as="sourcePoint" />
+            <mxPoint x="760" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-35" target="X139fEu5n8SQ0Y9knPl_-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1100" as="sourcePoint" />
+            <mxPoint x="970" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-34" target="X139fEu5n8SQ0Y9knPl_-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1236" as="sourcePoint" />
+            <mxPoint x="970" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-36" target="X139fEu5n8SQ0Y9knPl_-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="1246" as="sourcePoint" />
+            <mxPoint x="980" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="1420" as="sourcePoint" />
+            <mxPoint x="959.6300000000001" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-44" value="updateErrorMessageWithRetryAndNotify" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827.12" y="1560" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-45" value="startingRollbackOutIn/startingRollbackInOut" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827.12" y="1670" width="265" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-46" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879.13" y="1770" width="161" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-44" target="X139fEu5n8SQ0Y9knPl_-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1527" as="sourcePoint" />
+            <mxPoint x="969.6300000000001" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-45" target="X139fEu5n8SQ0Y9knPl_-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1630" as="sourcePoint" />
+            <mxPoint x="970" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-49" value="Luồng startingRollback:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="162.75" y="1720" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-50" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1720" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-51" value="Cập nhật operationState của VnfLcmOpOcc thành ROLLING_BACK&lt;br&gt;Nếu thỏa mãn điều kiện filter:&amp;nbsp;&lt;br&gt;+) Id của VnfLcmOpocc = Id trong DB&lt;br&gt;+) operationState hiện tại trong DB = STARTING hoặc PROCESSING" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="322.88" y="1850" width="274.25" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
