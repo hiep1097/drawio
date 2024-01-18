@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T08:18:40.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="JE9GBo67QLmb5s8r3W2q" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-18T09:28:02.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4vyPuIXJHeSqRslI9yit" version="22.1.18" type="github" pages="13">
   <diagram id="wqoC8lq2IpsK38vi7rGb" name="xử lý thông báo đồng thời">
-    <mxGraphModel dx="1366" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -293,8 +293,36 @@
         <mxCell id="X139fEu5n8SQ0Y9knPl_-50" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="1720" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="X139fEu5n8SQ0Y9knPl_-51" value="Cập nhật operationState của VnfLcmOpOcc thành ROLLING_BACK&lt;br&gt;Nếu thỏa mãn điều kiện filter:&amp;nbsp;&lt;br&gt;+) Id của VnfLcmOpocc = Id trong DB&lt;br&gt;+) operationState hiện tại trong DB = STARTING hoặc PROCESSING" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="322.88" y="1850" width="274.25" height="110" as="geometry" />
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-51" value="Cập nhật operationState của &lt;br&gt;VnfLcmOpOcc thành ROLLING_BACK" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="331.44" y="1850" width="257.12" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-50" target="X139fEu5n8SQ0Y9knPl_-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1840" as="sourcePoint" />
+            <mxPoint x="650" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-53" value="updateResult.getModifiedCount &amp;gt; 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333.56" y="1982" width="255" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-51" target="X139fEu5n8SQ0Y9knPl_-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="1880" as="sourcePoint" />
+            <mxPoint x="650" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-56" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.07;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-57" target="X139fEu5n8SQ0Y9knPl_-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="1150" as="sourcePoint" />
+            <mxPoint x="1050" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1050" y="1110" />
+              <mxPoint x="1200" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-57" value="check trạng thái hiện tại là &lt;br style=&quot;font-size: 10px;&quot;&gt;STARTING hoặc PROCESSING &lt;br style=&quot;font-size: 10px;&quot;&gt;mới thực hiện để tránh trường hợp &lt;br&gt;đang ROLLING_BACK rồi lại set &lt;br&gt;thành FAILED_TEMP và thực hiện lại" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1080" width="240" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
