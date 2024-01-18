@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T09:30:44.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="oy4HWK1jJmtgZJuAazm_" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-18T09:31:53.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="P0ik1HexD1x_F25R3YDx" version="22.1.18" type="github" pages="13">
   <diagram id="wqoC8lq2IpsK38vi7rGb" name="xử lý thông báo đồng thời">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -354,6 +354,17 @@
             <mxPoint x="540" y="2030" as="targetPoint" />
             <Array as="points">
               <mxPoint x="747" y="2135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X139fEu5n8SQ0Y9knPl_-65" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1.033;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="X139fEu5n8SQ0Y9knPl_-45" target="X139fEu5n8SQ0Y9knPl_-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="1890" as="sourcePoint" />
+            <mxPoint x="660" y="1840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1660" />
+              <mxPoint x="590" y="1720" />
+              <mxPoint x="500" y="1620" />
             </Array>
           </mxGeometry>
         </mxCell>
