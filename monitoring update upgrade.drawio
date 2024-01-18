@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T09:52:27.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4TQ8Q1WZsAHIEvQLFcOI" version="22.1.18" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-01-18T09:52:41.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6Svh0vWo5uBFOwrhYFOK" version="22.1.18" type="github" pages="13">
   <diagram id="wqoC8lq2IpsK38vi7rGb" name="xử lý thông báo đồng thời">
     <mxGraphModel dx="1793" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -313,7 +313,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-57" value="check trạng thái hiện tại là &lt;br style=&quot;font-size: 10px;&quot;&gt;STARTING hoặc PROCESSING &lt;br style=&quot;font-size: 10px;&quot;&gt;mới thực hiện để tránh trường hợp &lt;br&gt;đang ROLLING_BACK rồi lại set &lt;br&gt;thành FAILED_TEMP và thực hiện lại" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=10;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="924.37" y="1074" width="240" height="170" as="geometry" />
+          <mxGeometry x="929.37" y="1090" width="240" height="156" as="geometry" />
         </mxCell>
         <mxCell id="X139fEu5n8SQ0Y9knPl_-58" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="503.38" y="1981" width="161" height="70" as="geometry" />
