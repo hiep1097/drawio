@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T18:59:37.863Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-G_a3LPP_FQ4guL_fyBR" version="24.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-09T20:11:32.676Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-cLpInfFX4mbqSLuZvkG" version="24.0.3" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2901" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z9xs4bLD9ZNfjkihIaEH" name="connect github repo">
-    <mxGraphModel dx="1185" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1728" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,37 +173,59 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQ6ifJ1McaPYMQijio0X-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-6">
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-6" target="IQ6ifJ1McaPYMQijio0X-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="333" y="340" as="sourcePoint" />
             <mxPoint x="440" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="440" />
+              <mxPoint x="370" y="640" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-17" value="đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="418" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-18" value="sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="470" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="bMG_kZDetdwgzgLaysoh" name="sua github user name va token">
-    <mxGraphModel dx="2074" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VYhxNXoYSGjTr8Sa2wSX-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="90" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VYhxNXoYSGjTr8Sa2wSX-2" value="Github username ở&amp;nbsp;&lt;div&gt;request khác DB?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="111.88" y="220" width="196.25" height="60" as="geometry" />
+        <mxCell id="VYhxNXoYSGjTr8Sa2wSX-3" value="Lưu thông tin github username, token mới vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="300" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VYhxNXoYSGjTr8Sa2wSX-3" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="220" width="150" height="60" as="geometry" />
+        <mxCell id="NRsfiITGKjCwh40Ox6B0-1" value="Validate username và token phải khác null và khác rỗng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="190" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a9ectFQ8ysHRLxmD_b3d-1" value="Github username ở&amp;nbsp;&lt;div&gt;request khác DB?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113.75" y="560" width="196.25" height="60" as="geometry" />
+        <mxCell id="NRsfiITGKjCwh40Ox6B0-3" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a9ectFQ8ysHRLxmD_b3d-2" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="560" width="150" height="60" as="geometry" />
+        <mxCell id="NRsfiITGKjCwh40Ox6B0-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VYhxNXoYSGjTr8Sa2wSX-1" target="NRsfiITGKjCwh40Ox6B0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ssTI3Ly555zNFhwpxU8T-1" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="660" width="150" height="60" as="geometry" />
+        <mxCell id="NRsfiITGKjCwh40Ox6B0-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="NRsfiITGKjCwh40Ox6B0-1" target="VYhxNXoYSGjTr8Sa2wSX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="160" as="sourcePoint" />
+            <mxPoint x="220" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRsfiITGKjCwh40Ox6B0-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VYhxNXoYSGjTr8Sa2wSX-3" target="NRsfiITGKjCwh40Ox6B0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="260" as="sourcePoint" />
+            <mxPoint x="220" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
