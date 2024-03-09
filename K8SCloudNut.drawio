@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T21:00:21.963Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="XeSF2ZZJihhmvXUprXdz" version="24.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-09T21:01:12.916Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DY2quaz6SSQAQh5lxs1r" version="24.0.3" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2901" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
           <mxGeometry x="102.82" y="285" width="193.12" height="75" as="geometry" />
         </mxCell>
         <mxCell id="7T2gRhQuqYKZZtPdBjQv-4" value="Báo lỗi chưa đủ thông tin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="292.5" width="160" height="60" as="geometry" />
+          <mxGeometry x="365" y="292.5" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7T2gRhQuqYKZZtPdBjQv-5" value="Gọi API github thực hiện&amp;nbsp;&lt;div&gt;tạo repo theo template&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="124.38000000000001" y="490" width="150" height="60" as="geometry" />
@@ -161,7 +161,7 @@
           <mxGeometry x="190" y="360" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IQ6ifJ1McaPYMQijio0X-18" value="sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="405" y="300" width="40" height="30" as="geometry" />
+          <mxGeometry x="304.38" y="300" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hchaLNkJJwK_MVgLCugz-1" value="Cập nhật errorMessage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="356.87" y="1320" width="160" height="60" as="geometry" />
@@ -171,6 +171,7 @@
             <mxPoint x="730" y="580" as="sourcePoint" />
             <mxPoint x="780" y="530" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="590" y="323" />
               <mxPoint x="590" y="890" />
               <mxPoint x="590" y="1250" />
               <mxPoint x="590" y="1350" />
