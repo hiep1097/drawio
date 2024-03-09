@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T18:40:21.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-fQIWu-ii8Jt51DPDrnc" version="24.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-09T18:59:37.863Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="-G_a3LPP_FQ4guL_fyBR" version="24.0.3" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2901" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z9xs4bLD9ZNfjkihIaEH" name="connect github repo">
-    <mxGraphModel dx="1430" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,28 +88,96 @@
           <mxGeometry x="130" y="90" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7T2gRhQuqYKZZtPdBjQv-2" value="Gọi API sync đến k8s-orchestrator để kết nối người dùng Instructor đến&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;github repo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tương ứng của họ&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="210" width="210" height="60" as="geometry" />
+          <mxGeometry x="105" y="190" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7T2gRhQuqYKZZtPdBjQv-3" value="Đã có thông tin&amp;nbsp;&lt;div&gt;github username, token quyền repo:invite?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="97.5" y="320" width="225" height="80" as="geometry" />
+          <mxGeometry x="97.5" y="290" width="225" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7T2gRhQuqYKZZtPdBjQv-4" value="Báo lỗi chưa đủ thông tin và kết thúc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="340" width="150" height="60" as="geometry" />
+        <mxCell id="7T2gRhQuqYKZZtPdBjQv-4" value="Báo lỗi chưa đủ thông tin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7T2gRhQuqYKZZtPdBjQv-5" value="Gọi API github yêu cầu&amp;nbsp;&lt;div&gt;tạo repo theo template&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="460" width="150" height="60" as="geometry" />
+        <mxCell id="7T2gRhQuqYKZZtPdBjQv-5" value="Gọi API github thực hiện&amp;nbsp;&lt;div&gt;tạo repo theo template&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="510" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7T2gRhQuqYKZZtPdBjQv-6" value="Đã tạo github repo?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113.75" y="460" width="192.5" height="60" as="geometry" />
+          <mxGeometry x="113.75" y="410" width="192.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7T2gRhQuqYKZZtPdBjQv-8" value="Github username ở&amp;nbsp;&lt;div&gt;request khác DB?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="113.75" y="560" width="196.25" height="60" as="geometry" />
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-1" target="7T2gRhQuqYKZZtPdBjQv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="480" as="sourcePoint" />
+            <mxPoint x="650" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7T2gRhQuqYKZZtPdBjQv-9" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="560" width="150" height="60" as="geometry" />
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-2" target="7T2gRhQuqYKZZtPdBjQv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="160" as="sourcePoint" />
+            <mxPoint x="220" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7T2gRhQuqYKZZtPdBjQv-10" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="660" width="150" height="60" as="geometry" />
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-3" target="7T2gRhQuqYKZZtPdBjQv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="220" y="330" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-3" target="7T2gRhQuqYKZZtPdBjQv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="220" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-6" target="7T2gRhQuqYKZZtPdBjQv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="220" y="470" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-8" value="Gọi API github thực hiện invite người dùng làm Collaborator của repo theo&amp;nbsp;&lt;div&gt;github username&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="610" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-9" value="Gọi API github thực hiện việc accept lời mời làm Collaborator của repo thay cho người dùng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="710" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-10" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="810" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-5" target="IQ6ifJ1McaPYMQijio0X-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="530" as="sourcePoint" />
+            <mxPoint x="220" y="580" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IQ6ifJ1McaPYMQijio0X-8" target="IQ6ifJ1McaPYMQijio0X-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="540" as="sourcePoint" />
+            <mxPoint x="230" y="590" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="IQ6ifJ1McaPYMQijio0X-9" target="IQ6ifJ1McaPYMQijio0X-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="750" as="sourcePoint" />
+            <mxPoint x="220" y="790" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-4" target="IQ6ifJ1McaPYMQijio0X-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="580" as="sourcePoint" />
+            <mxPoint x="600" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQ6ifJ1McaPYMQijio0X-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="333" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -127,6 +195,15 @@
         </mxCell>
         <mxCell id="VYhxNXoYSGjTr8Sa2wSX-3" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9ectFQ8ysHRLxmD_b3d-1" value="Github username ở&amp;nbsp;&lt;div&gt;request khác DB?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113.75" y="560" width="196.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9ectFQ8ysHRLxmD_b3d-2" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ssTI3Ly555zNFhwpxU8T-1" value="Gọi API github thực hiện xóa collaborator hiện tại của repo&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="660" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
