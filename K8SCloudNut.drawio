@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T18:22:00.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="E36hpEKj9Uj0AzdQPF1w" version="24.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-10T18:22:18.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OMSFk0dFtYsH0OoH2XOr" version="24.0.3" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2901" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,7 +362,7 @@
         <mxCell id="VYhxNXoYSGjTr8Sa2wSX-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="90" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VYhxNXoYSGjTr8Sa2wSX-3" value="4. Lưu thông tin github username, token mới vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VYhxNXoYSGjTr8Sa2wSX-3" value="6. Lưu thông tin github username, token mới vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="400" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NRsfiITGKjCwh40Ox6B0-1" value="1. Validate username và token phải khác null và khác rỗng" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -419,7 +419,7 @@
         <mxCell id="lGxWtZeeJLFQxyNRGeu_-2" value="sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x9p6Xz07hXN7QDsUhDBV-1" value="3. Cập nhật needToSync thành true và lưu vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-1" value="5. Cập nhật needToSync thành true và lưu vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="400" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x9p6Xz07hXN7QDsUhDBV-2" value="Tìm thấy?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
