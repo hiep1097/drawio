@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T01:36:35.751Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="bJ4QiNSA94heVAbEH1iQ" version="24.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-10T18:21:11.832Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="YM_oatfB8VIDm0OtwbMA" version="24.0.3" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2901" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -392,18 +392,15 @@
         <mxCell id="Cehlnblb-orMPFaKdq-x-2" value="2. Github username&amp;nbsp;&lt;div&gt;ở request khác DB?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="290" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Cehlnblb-orMPFaKdq-x-3" value="3. Cập nhật needToSync thành true trong DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="339" y="295" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Cehlnblb-orMPFaKdq-x-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Cehlnblb-orMPFaKdq-x-2" target="Cehlnblb-orMPFaKdq-x-3">
+        <mxCell id="Cehlnblb-orMPFaKdq-x-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Cehlnblb-orMPFaKdq-x-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="370" as="sourcePoint" />
-            <mxPoint x="570" y="320" as="targetPoint" />
+            <mxPoint x="339" y="325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cehlnblb-orMPFaKdq-x-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Cehlnblb-orMPFaKdq-x-3" target="VYhxNXoYSGjTr8Sa2wSX-3">
+        <mxCell id="Cehlnblb-orMPFaKdq-x-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="x9p6Xz07hXN7QDsUhDBV-1" target="VYhxNXoYSGjTr8Sa2wSX-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="370" as="sourcePoint" />
+            <mxPoint x="414" y="355" as="sourcePoint" />
             <mxPoint x="570" y="320" as="targetPoint" />
             <Array as="points">
               <mxPoint x="414" y="430" />
@@ -421,6 +418,51 @@
         </mxCell>
         <mxCell id="lGxWtZeeJLFQxyNRGeu_-2" value="sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-1" value="3. Cập nhật needToSync thành true và lưu vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-2" value="Tìm thấy?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="295" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-3" value="3. Tìm GithubRepoInfo theo repoName = userName" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="295" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-4" value="4. Tạo mới đối tượng GithubRepoInfo với thông tin cơ bản" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="295" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="x9p6Xz07hXN7QDsUhDBV-3" target="x9p6Xz07hXN7QDsUhDBV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="x9p6Xz07hXN7QDsUhDBV-2" target="x9p6Xz07hXN7QDsUhDBV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499" y="325" as="sourcePoint" />
+            <mxPoint x="550" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="x9p6Xz07hXN7QDsUhDBV-4" target="x9p6Xz07hXN7QDsUhDBV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="745" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="x9p6Xz07hXN7QDsUhDBV-2" target="x9p6Xz07hXN7QDsUhDBV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-9" value="sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="298" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x9p6Xz07hXN7QDsUhDBV-10" value="đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
