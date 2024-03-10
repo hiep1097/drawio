@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T18:22:18.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OMSFk0dFtYsH0OoH2XOr" version="24.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-10T20:07:54.816Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="dAA4GnBGC-EPjKFM5iI6" version="24.0.3" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2901" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z9xs4bLD9ZNfjkihIaEH" name="connect github repo">
-    <mxGraphModel dx="1803" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,11 +351,14 @@
             <mxPoint x="450" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="s0WQWjO4fbNltKcX4qBl-1" value="xóa collaborator cũ??" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="848" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="bMG_kZDetdwgzgLaysoh" name="sua github user name va token">
-    <mxGraphModel dx="988" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
