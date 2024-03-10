@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T00:14:58.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="j7DFLsHL1cMMPWhFros-" version="24.0.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-10T00:55:15.226Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="sJbMNTtMtG7Sc_Z-uiAx" version="24.0.3" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2901" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,10 +96,10 @@
         <mxCell id="7T2gRhQuqYKZZtPdBjQv-4" value="2. Báo lỗi chưa đủ thông tin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="292.5" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7T2gRhQuqYKZZtPdBjQv-5" value="4. Gọi API github thực hiện&amp;nbsp;&lt;div&gt;tạo repo theo template (DRAFT và PUBLISH)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7T2gRhQuqYKZZtPdBjQv-5" value="4. Gọi API github thực hiện&amp;nbsp;&lt;div&gt;tạo repo theo template&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="124.38000000000001" y="490" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7T2gRhQuqYKZZtPdBjQv-6" value="3. Đã tạo github repo?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7T2gRhQuqYKZZtPdBjQv-6" value="3. isCreated = true?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="103.13000000000001" y="395" width="192.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IQ6ifJ1McaPYMQijio0X-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7T2gRhQuqYKZZtPdBjQv-1" target="7T2gRhQuqYKZZtPdBjQv-2">
