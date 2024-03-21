@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T08:00:31.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="n7lf-E7wC2m6q9S_FugO" version="24.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-03-21T08:01:19.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Dz5UbRpfko4G1HshwJCM" version="24.0.2" type="github" pages="2">
   <diagram name="Trang-1" id="227VS3plAoMoPgJaio3a">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -18,22 +18,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PPKL06S1C_cxHtMfsT4N-1" value="Upload image mới lên MANO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PPKL06S1C_cxHtMfsT4N-1" value="1. Upload image mới lên MANO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="200" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PPKL06S1C_cxHtMfsT4N-2" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="90" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PPKL06S1C_cxHtMfsT4N-3" value="Tranfer image mới lên Image Repo của các site MANO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PPKL06S1C_cxHtMfsT4N-3" value="2. Tranfer image mới lên Image Repo của các site MANO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="300" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPKL06S1C_cxHtMfsT4N-4" value="Cập nhật config map trên MANO, lưu thành version mới" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PPKL06S1C_cxHtMfsT4N-4" value="3. Cập nhật config map trên MANO, lưu thành version mới" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="400" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPKL06S1C_cxHtMfsT4N-5" value="Khởi tạo thông tin cho lần nâng cấp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PPKL06S1C_cxHtMfsT4N-5" value="4. Khởi tạo thông tin cho lần nâng cấp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="500" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPKL06S1C_cxHtMfsT4N-6" value="Thực hiện nâng cấp MANO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PPKL06S1C_cxHtMfsT4N-6" value="5. Thực hiện nâng cấp MANO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="600" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PPKL06S1C_cxHtMfsT4N-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="PPKL06S1C_cxHtMfsT4N-2" target="PPKL06S1C_cxHtMfsT4N-1">
