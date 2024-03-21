@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T10:21:58.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="pHRfLUQtwRGGIt9Sk4jd" version="24.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-03-21T10:22:16.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="9LcQbXBYFGGNoHdRGl2u" version="24.0.2" type="github" pages="6">
   <diagram name="Trang-1" id="227VS3plAoMoPgJaio3a">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -206,6 +206,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nCtNjVmayosTBjxd8tzf" name="nang cap service">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HqZKkDtrxH86ZIK6X9cj" name="auto rollback">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
