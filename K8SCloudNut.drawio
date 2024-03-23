@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T20:14:01.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9lb0vn7fZRuiNGbC84dn" version="24.0.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-23T20:15:15.173Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="xRpJfYzE2wBL2HrJtKb0" version="24.0.7" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-106" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="468" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="h1ZSuEvPb_-F8IJp6T5q-107" value="27. cập nhật đối tượng GithubRepoInfo:&lt;div&gt;needToSync = false&lt;/div&gt;&lt;div&gt;syncSuccess = true&lt;/div&gt;&lt;div&gt;errorMessage = null&lt;/div&gt;&lt;div&gt;updatedDate = new Date()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h1ZSuEvPb_-F8IJp6T5q-107" value="27. cập nhật đối tượng GithubRepoInfo:&lt;div&gt;isNeedToSync = false&lt;/div&gt;&lt;div&gt;isSyncSuccess = true&lt;/div&gt;&lt;div&gt;errorMessage = null&lt;/div&gt;&lt;div&gt;updatedDate = new Date()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="950" width="202.8" height="100" as="geometry" />
         </mxCell>
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-108" value="29. Lưu GithubRepoInfo vào DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
