@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T19:55:45.693Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="GTn7Bir4A1xh12ZvhopW" version="24.0.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-23T19:56:49.488Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ZdTHAqPJo-iNdI8ouEC1" version="24.0.7" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -669,7 +669,7 @@
         <mxCell id="yc-VkrHJ9Fl5jUTyxmim-2" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="590" y="955" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qbAD7Vsl9SpGk0Rn7Luu-1" value="10. Báo lỗi không get&lt;div&gt;github user theo github username không thành công&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qbAD7Vsl9SpGk0Rn7Luu-1" value="10. Báo lỗi tạo github repo theo template&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;không thành công&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="130" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qbAD7Vsl9SpGk0Rn7Luu-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="qbAD7Vsl9SpGk0Rn7Luu-1">
