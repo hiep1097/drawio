@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T20:11:24.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jNdAjIWxf-qIoSlp6JT5" version="24.0.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-23T20:14:01.342Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9lb0vn7fZRuiNGbC84dn" version="24.0.7" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -340,7 +340,7 @@
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-67" value="19. Gọi API github thực hiện xóa tất cả lời mời tham gia repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310.0000000000001" y="550" width="202.8" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h1ZSuEvPb_-F8IJp6T5q-68" value="21. Gọi API github thực hiện xóa tất cả collaborator của repo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h1ZSuEvPb_-F8IJp6T5q-68" value="21. Gọi API github thực hiện collaborator cũ của repo theo oldGithubUserName" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="630" width="202.8" height="50" as="geometry" />
         </mxCell>
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="h1ZSuEvPb_-F8IJp6T5q-64" target="h1ZSuEvPb_-F8IJp6T5q-67">
@@ -358,7 +358,7 @@
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-73" value="20. Báo lỗi xóa lời mời không thành công" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="550" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h1ZSuEvPb_-F8IJp6T5q-74" value="22. Báo lỗi xóa collaborator không thành công" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h1ZSuEvPb_-F8IJp6T5q-74" value="22. Báo lỗi xóa collaborator cũ không thành công" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="675" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-75" value="Thành công?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
