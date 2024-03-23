@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T19:16:41.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KiRv86hLoB3jdeDOx6Sj" version="24.0.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-23T19:21:00.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="aOid1ryOLI90Iv9vm30q" version="24.0.7" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z9xs4bLD9ZNfjkihIaEH" name="connect github repo">
-    <mxGraphModel dx="1975" dy="2260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-16" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="820" y="-490" width="40" height="30" as="geometry" />
+          <mxGeometry x="860" y="-475" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-20" value="3. githubUserName&amp;nbsp;&lt;div&gt;hoặc&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;githubUserToken&amp;nbsp;&lt;/span&gt;&lt;div&gt;trong DB&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;null&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;hoặc&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;rỗng?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="94.38" y="-320" width="210" height="90" as="geometry" />
@@ -543,7 +543,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-115" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="681.25" y="-30" width="40" height="30" as="geometry" />
+          <mxGeometry x="700" y="-25" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h1ZSuEvPb_-F8IJp6T5q-117" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="25" width="40" height="30" as="geometry" />
@@ -669,11 +669,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="yc-VkrHJ9Fl5jUTyxmim-1" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="900" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yc-VkrHJ9Fl5jUTyxmim-2" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="955" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="bMG_kZDetdwgzgLaysoh" name="sua github user name va token">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
