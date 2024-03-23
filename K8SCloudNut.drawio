@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-23T20:04:58.848Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="FZMAeto3KLn91SbhXFDk" version="24.0.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-23T20:11:24.025Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jNdAjIWxf-qIoSlp6JT5" version="24.0.7" type="github" pages="7">
   <diagram name="createrepo" id="XH6OXC314fcbk0lsmcRP">
     <mxGraphModel dx="2261" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -846,7 +846,7 @@
         <mxCell id="2w1hR8hlAXXgjji5TI2J-21" value="8. set lại thông tin github user name và github token" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="485" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2w1hR8hlAXXgjji5TI2J-22" value="7. set needToSync = true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2w1hR8hlAXXgjji5TI2J-22" value="7. set isNeedToSync = true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="485" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2w1hR8hlAXXgjji5TI2J-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2w1hR8hlAXXgjji5TI2J-11" target="2w1hR8hlAXXgjji5TI2J-21">
