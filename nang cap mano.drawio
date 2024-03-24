@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T19:48:16.393Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0u0t3f4ta1YLKgrdJN9z" version="24.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-24T19:50:10.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="IKKBMoBFhFt7WWCXsL6i" version="24.0.8" type="github" pages="6">
   <diagram name="Trang-1" id="227VS3plAoMoPgJaio3a">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -213,7 +213,7 @@
         <mxCell id="JRNJhlkCCefPbqb9QlCE-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="-480" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JRNJhlkCCefPbqb9QlCE-2" value="Cập nhật image mới và change-cause cho deployment" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="JRNJhlkCCefPbqb9QlCE-2" value="Cập nhật image mới và&amp;nbsp;&lt;div&gt;change-cause cho deployment&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="230" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JRNJhlkCCefPbqb9QlCE-3" value="Thành công?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -315,7 +315,7 @@
         <mxCell id="ECy2yjL8660fm-S6o7PU-7" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="-350" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ECy2yjL8660fm-S6o7PU-9" value="Cập nhật image mới và change-cause cho deployment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ECy2yjL8660fm-S6o7PU-9" value="Cập nhật image mới và&amp;nbsp;&lt;div&gt;change-cause cho deployment&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="245" y="-250" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ECy2yjL8660fm-S6o7PU-10" value="Apply cấu hình Deployment mới xuống K8S để thực hiện RollingUpdate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
