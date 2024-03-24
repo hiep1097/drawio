@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T19:50:42.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RELlNPDBdirS6ywjbJHi" version="24.0.8" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-24T20:02:17.389Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="NsbfHPJUdECaG1ThBJDE" version="24.0.8" type="github" pages="6">
   <diagram name="Trang-1" id="227VS3plAoMoPgJaio3a">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -420,7 +420,7 @@
             <mxPoint x="500" y="-240" as="targetPoint" />
             <Array as="points">
               <mxPoint x="140" y="-385" />
-              <mxPoint x="140" y="360" />
+              <mxPoint x="140" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -432,6 +432,15 @@
         </mxCell>
         <mxCell id="9nruIqw6gH3abIfqWsho-4" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="-40" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ngw2nrwZ5PHDwuSEil4c-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Chạy task mỗi x gây (cấu hình x)&lt;div&gt;Gọi API K8S lấy trạng thái&amp;nbsp;&lt;/div&gt;&lt;div&gt;rollout của Deployment.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Dựa vào đó biết được đã&amp;nbsp;&lt;/div&gt;&lt;div&gt;Upgrade thành công&amp;nbsp;&lt;/div&gt;&lt;div&gt;phiên bản mới hay chưa&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-300" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ngw2nrwZ5PHDwuSEil4c-2" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.111;entryY=0.705;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ECy2yjL8660fm-S6o7PU-14" target="Ngw2nrwZ5PHDwuSEil4c-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" as="sourcePoint" />
+            <mxPoint x="526" y="-154" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
