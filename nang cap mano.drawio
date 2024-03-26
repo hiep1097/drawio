@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T08:20:39.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5tqHWsGTREKLX8Isc8qv" version="24.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-26T08:36:39.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3_jFRqmTewR7RzepG9C6" version="24.0.2" type="github" pages="6">
   <diagram name="Trang-1" id="227VS3plAoMoPgJaio3a">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JRNJhlkCCefPbqb9QlCE-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="-480" width="100" height="40" as="geometry" />
+          <mxGeometry x="290" y="-700" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JRNJhlkCCefPbqb9QlCE-2" value="Cập nhật image mới&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;cho deployment&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="230" width="190" height="50" as="geometry" />
@@ -214,10 +214,10 @@
         <mxCell id="JRNJhlkCCefPbqb9QlCE-4" value="Với mỗi service trong danh sách" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=40;" parent="1" vertex="1">
           <mxGeometry x="190" y="110" width="470" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="JRNJhlkCCefPbqb9QlCE-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="JRNJhlkCCefPbqb9QlCE-1" target="ECy2yjL8660fm-S6o7PU-1" edge="1">
+        <mxCell id="JRNJhlkCCefPbqb9QlCE-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" target="ECy2yjL8660fm-S6o7PU-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="-250" as="sourcePoint" />
-            <mxPoint x="340" y="-510" as="targetPoint" />
+            <mxPoint x="340" y="-650" as="sourcePoint" />
+            <mxPoint x="340" y="-720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JRNJhlkCCefPbqb9QlCE-6" value="5. Cập nhật trạng thái service thành UPGRADE_FAILED, cập nhật errorMessage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -293,19 +293,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ECy2yjL8660fm-S6o7PU-1" value="Có vmanager&amp;nbsp;&lt;div&gt;trong danh&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;sách&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;service?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="-420" width="160" height="70" as="geometry" />
+          <mxGeometry x="260" y="-630" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ECy2yjL8660fm-S6o7PU-3" value="Cập nhật trạng thái service vmanager thành UPGRADE_PROCESSING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="-320" width="190" height="50" as="geometry" />
+          <mxGeometry x="245" y="-530" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ECy2yjL8660fm-S6o7PU-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ECy2yjL8660fm-S6o7PU-1" target="ECy2yjL8660fm-S6o7PU-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="-100" as="sourcePoint" />
-            <mxPoint x="610" y="-150" as="targetPoint" />
+            <mxPoint x="560" y="-310" as="sourcePoint" />
+            <mxPoint x="610" y="-360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ECy2yjL8660fm-S6o7PU-7" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="340" y="-350" width="40" height="30" as="geometry" />
+          <mxGeometry x="340" y="-560" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ECy2yjL8660fm-S6o7PU-9" value="Cập nhật image mới&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;cho deployment&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="-250" width="190" height="50" as="geometry" />
@@ -322,10 +322,10 @@
         <mxCell id="ECy2yjL8660fm-S6o7PU-14" value="Chạy task thực hiện kiểm tra trạng thái định kỳ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="-110" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Woe86viWTn-ud12682CE-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ECy2yjL8660fm-S6o7PU-3" target="ECy2yjL8660fm-S6o7PU-9" edge="1">
+        <mxCell id="Woe86viWTn-ud12682CE-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ECy2yjL8660fm-S6o7PU-3" target="f-EjQvR5RM3y5u4SWrKP-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="450" as="sourcePoint" />
-            <mxPoint x="500" y="-50" as="targetPoint" />
+            <mxPoint x="450" y="-100" as="sourcePoint" />
+            <mxPoint x="340" y="-450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Woe86viWTn-ud12682CE-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="ECy2yjL8660fm-S6o7PU-9" target="ECy2yjL8660fm-S6o7PU-10" edge="1">
@@ -411,13 +411,13 @@
             <mxPoint x="450" y="-190" as="sourcePoint" />
             <mxPoint x="500" y="-240" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="140" y="-385" />
+              <mxPoint x="140" y="-605" />
               <mxPoint x="140" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9nruIqw6gH3abIfqWsho-2" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="210" y="-412" width="40" height="30" as="geometry" />
+          <mxGeometry x="210" y="-622" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9nruIqw6gH3abIfqWsho-3" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="340" y="8" width="40" height="30" as="geometry" />
@@ -426,7 +426,7 @@
           <mxGeometry x="420" y="-40" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ngw2nrwZ5PHDwuSEil4c-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Chạy task mỗi x gây (cấu hình x)&lt;div&gt;Gọi API K8S lấy trạng thái&amp;nbsp;&lt;/div&gt;&lt;div&gt;rollout của Deployment.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Dựa vào đó biết được đã&amp;nbsp;&lt;/div&gt;&lt;div&gt;Upgrade thành công&amp;nbsp;&lt;/div&gt;&lt;div&gt;phiên bản mới hay chưa&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="-260" width="280" height="200" as="geometry" />
+          <mxGeometry x="560" y="-270" width="280" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Ngw2nrwZ5PHDwuSEil4c-2" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.111;entryY=0.705;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ECy2yjL8660fm-S6o7PU-14" target="Ngw2nrwZ5PHDwuSEil4c-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -434,13 +434,46 @@
             <mxPoint x="526" y="-154" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YYdcbWorvVVjPCxfe7Z--1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nếu new image giống với&lt;/div&gt;&lt;div&gt;&amp;nbsp;current image, &lt;span style=&quot;background-color: initial;&quot;&gt;thực hiện&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dạng rollout&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;restart thay vì&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;createOrReplace&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-400" width="260" height="130" as="geometry" />
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-1" value="Lấy thông tin image của deployment trên K8S" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-450" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YYdcbWorvVVjPCxfe7Z--2" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.112;entryY=0.731;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="ECy2yjL8660fm-S6o7PU-9" target="YYdcbWorvVVjPCxfe7Z--1">
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-2" value="image trên K8S&amp;nbsp;&lt;div&gt;khác version mới?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-370" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="f-EjQvR5RM3y5u4SWrKP-1" target="f-EjQvR5RM3y5u4SWrKP-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="445" y="-94" as="sourcePoint" />
-            <mxPoint x="521" y="-109" as="targetPoint" />
+            <mxPoint x="520" y="-350" as="sourcePoint" />
+            <mxPoint x="570" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="f-EjQvR5RM3y5u4SWrKP-2" target="ECy2yjL8660fm-S6o7PU-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="-410" as="sourcePoint" />
+            <mxPoint x="350" y="-370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-5" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-6" value="Thực hiện roll out restart deployment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-355" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="f-EjQvR5RM3y5u4SWrKP-2" target="f-EjQvR5RM3y5u4SWrKP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="-190" as="sourcePoint" />
+            <mxPoint x="570" y="-240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-8" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-355" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f-EjQvR5RM3y5u4SWrKP-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="f-EjQvR5RM3y5u4SWrKP-6" target="ECy2yjL8660fm-S6o7PU-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="-200" as="sourcePoint" />
+            <mxPoint x="570" y="-250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="-85" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
@@ -604,7 +637,7 @@
         <mxCell id="2g42jvOaZT24TbotHFIL-4" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1015" y="190" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-5" value="Cập nhật image mới và&amp;nbsp;&lt;div&gt;change-cause cho deployment&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2g42jvOaZT24TbotHFIL-5" value="Cập nhật image current&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cho deployment&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="300" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2g42jvOaZT24TbotHFIL-6" value="Apply cấu hình Deployment mới xuống K8S để thực hiện RollingUpdate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -643,15 +676,6 @@
             <mxPoint x="1025" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="2g42jvOaZT24TbotHFIL-8" target="2g42jvOaZT24TbotHFIL-17" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1035" y="400" as="sourcePoint" />
-            <mxPoint x="1155.0000000000002" y="535.0000000000002" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1125" y="535" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2g42jvOaZT24TbotHFIL-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="2g42jvOaZT24TbotHFIL-8" target="2g42jvOaZT24TbotHFIL-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1045" y="410" as="sourcePoint" />
@@ -661,26 +685,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-16" value="Cập nhật trạng thái service vmanager thành UPGRADE_COMPLETED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2g42jvOaZT24TbotHFIL-16" value="Cập nhật trạng thái service vmanager thành ROLLBACK_COMPLETED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="590" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-17" value="Cập nhật trạng thái service vmanager thành UPGRADE_FAILED, cập nhật errorMessage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1155" y="505" width="190" height="60" as="geometry" />
+        <mxCell id="2g42jvOaZT24TbotHFIL-17" value="Cập nhật trạng thái service vmanager thành ROLLBACK_FAILED, cập nhật errorMessage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="580" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2g42jvOaZT24TbotHFIL-19" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1015" y="558" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2g42jvOaZT24TbotHFIL-20" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1095" y="510" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-21" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Chạy task mỗi x gây (cấu hình x)&lt;div&gt;Gọi API K8S lấy trạng thái&amp;nbsp;&lt;/div&gt;&lt;div&gt;rollout của Deployment.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Dựa vào đó biết được đã&amp;nbsp;&lt;/div&gt;&lt;div&gt;Upgrade thành công&amp;nbsp;&lt;/div&gt;&lt;div&gt;phiên bản mới hay chưa&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1155" y="250" width="280" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-22" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.111;entryY=0.705;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2g42jvOaZT24TbotHFIL-9" target="2g42jvOaZT24TbotHFIL-21" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1495" y="550" as="sourcePoint" />
-            <mxPoint x="1201" y="396" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="870" y="510" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2g42jvOaZT24TbotHFIL-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="9BOsSJundSOrUythvQ7T-2" target="2g42jvOaZT24TbotHFIL-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
