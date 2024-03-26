@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T09:35:32.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mR2o4wsREzywcnUdb1TM" version="24.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-03-26T09:37:07.953Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Osd7LD3irfb0KuFv-e28" version="24.0.2" type="github" pages="6">
   <diagram name="Trang-1" id="227VS3plAoMoPgJaio3a">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -523,7 +523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HqZKkDtrxH86ZIK6X9cj" name="auto rollback">
-    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -653,7 +653,7 @@
         <mxCell id="2g42jvOaZT24TbotHFIL-1" value="11. Có vmanager&amp;nbsp;&lt;div&gt;trong danh&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;sách&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;service?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="975" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-2" value="Cập nhật trạng thái service vmanager thành ROLLBACK_PROCESSING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2g42jvOaZT24TbotHFIL-2" value="13. Cập nhật trạng thái service vmanager thành ROLLBACK_PROCESSING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="240" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2g42jvOaZT24TbotHFIL-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="2g42jvOaZT24TbotHFIL-1" target="2g42jvOaZT24TbotHFIL-25" edge="1">
@@ -725,7 +725,7 @@
         <mxCell id="2g42jvOaZT24TbotHFIL-20" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="910" y="730" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2g42jvOaZT24TbotHFIL-25" value="trạng thái vmanager&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;khác&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;INITIALIZING và ROLLBACK_COMPLETED?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="2g42jvOaZT24TbotHFIL-25" value="12. trạng thái vmanager&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;khác&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;INITIALIZING và ROLLBACK_COMPLETED?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="955" y="110" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2g42jvOaZT24TbotHFIL-26" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="2g42jvOaZT24TbotHFIL-25" target="2g42jvOaZT24TbotHFIL-2" edge="1">
@@ -950,6 +950,16 @@
             <Array as="points">
               <mxPoint x="220" y="1280" />
               <mxPoint x="220" y="825" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0kgO8G3WoW3t2Y8svkQd-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="2g42jvOaZT24TbotHFIL-25" target="HP6DUjYi99jz_w48oySi-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="sourcePoint" />
+            <mxPoint x="710" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1390" y="155" />
+              <mxPoint x="1390" y="1290" />
             </Array>
           </mxGeometry>
         </mxCell>
