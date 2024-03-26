@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T09:09:09.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="lwX4kK1183vj-7m9fNuO" version="24.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-03-26T09:18:00.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="YHZmznbqs7EoDk5IP8b8" version="24.0.2" type="github" pages="7">
   <diagram name="Trang-1" id="227VS3plAoMoPgJaio3a">
     <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -951,11 +951,41 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Rcr2FXoUHQvdVoZ2r-iQ" name="Trang-7">
+  <diagram id="Rcr2FXoUHQvdVoZ2r-iQ" name="retry and cancel auto rollback">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aVeV8gfH_KYUqjh7t8jw-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aVeV8gfH_KYUqjh7t8jw-2" value="Cập nhật trạng thái chung&lt;div&gt;thành FAILED&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="170" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwXHfzm0hslFSgVfyafz-2" value="Chuyển document sang&amp;nbsp;&lt;div&gt;collection History&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="270" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VwXHfzm0hslFSgVfyafz-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aVeV8gfH_KYUqjh7t8jw-1" target="aVeV8gfH_KYUqjh7t8jw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="290" as="sourcePoint" />
+            <mxPoint x="610" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwXHfzm0hslFSgVfyafz-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aVeV8gfH_KYUqjh7t8jw-2" target="VwXHfzm0hslFSgVfyafz-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="140" as="sourcePoint" />
+            <mxPoint x="265" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwXHfzm0hslFSgVfyafz-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VwXHfzm0hslFSgVfyafz-2" target="VwXHfzm0hslFSgVfyafz-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="230" as="sourcePoint" />
+            <mxPoint x="255" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwXHfzm0hslFSgVfyafz-6" value="Kết thúc" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="370" width="150" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
