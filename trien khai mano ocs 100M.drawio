@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-09-19T04:27:15.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vi2nVlWpNAwWukwPNyo7" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-19T04:31:38.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="duIboerDjORo2FPo8aGK" version="24.1.0" type="github">
   <diagram name="Trang-1" id="KtHr_5E2wknJm8B1uxdO">
     <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ma864Qg47mfF3DVLuMsx-2" value="Tầng 2" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="220" y="390" width="630" height="230" as="geometry" />
+          <mxGeometry x="220" y="390" width="600" height="230" as="geometry" />
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-1" value="Tầng 1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="220" y="80" width="630" height="250" as="geometry" />
+          <mxGeometry x="220" y="80" width="600" height="250" as="geometry" />
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="110" width="130" height="490" as="geometry" />
@@ -22,7 +22,7 @@
         <mxCell id="ma864Qg47mfF3DVLuMsx-3" value="" style="endArrow=none;html=1;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="360" as="sourcePoint" />
-            <mxPoint x="840" y="360" as="targetPoint" />
+            <mxPoint x="810" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-4" value="K8S Master" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
