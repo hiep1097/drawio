@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-09-19T04:54:28.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="M1S8HCV4krqtgK3mFxYZ" version="24.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-09-19T04:57:15.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Ut5HTB9B1WVkspmyMkHD" version="24.1.0" type="github" pages="3">
   <diagram name="Trang-1" id="KtHr_5E2wknJm8B1uxdO">
     <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
           <mxGeometry x="535" y="160" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mqvfrP9wt85uFmhRxK8Y-10" value="K8S Worker&lt;div&gt;App&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
-          <mxGeometry x="670" y="160" width="100" height="40" as="geometry" />
+          <mxGeometry x="670" y="450" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mqvfrP9wt85uFmhRxK8Y-11" value="K8S Worker&lt;div&gt;MongoDB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="400" y="250" width="100" height="40" as="geometry" />
@@ -186,7 +186,7 @@
           <mxGeometry x="535" y="450" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mqvfrP9wt85uFmhRxK8Y-16" value="K8S Worker&lt;div&gt;App&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
-          <mxGeometry x="670" y="450" width="100" height="40" as="geometry" />
+          <mxGeometry x="970" y="270" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mqvfrP9wt85uFmhRxK8Y-17" value="K8S Worker&lt;div&gt;MongoDB&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="400" y="540" width="100" height="40" as="geometry" />
