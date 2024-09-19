@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-09-19T04:45:46.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xq8L1NMHlqekjTmgFKVE" version="24.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-09-19T04:47:43.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="h5gtYGCVxwc_TttMTgdJ" version="24.1.0" type="github" pages="2">
   <diagram name="Trang-1" id="KtHr_5E2wknJm8B1uxdO">
     <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ma864Qg47mfF3DVLuMsx-2" value="Tầng 2" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ma864Qg47mfF3DVLuMsx-2" value="Tầng 2" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="220" y="390" width="600" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="ma864Qg47mfF3DVLuMsx-1" value="Tầng 1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="ma864Qg47mfF3DVLuMsx-1" value="Tầng 1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="220" y="80" width="600" height="250" as="geometry" />
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=default;labelBackgroundColor=none;fillColor=none;dashed=1;" vertex="1" parent="1">
