@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-09-19T07:06:45.752Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3Aw8xykFam1xVGb8piw5" version="24.1.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-09-19T07:07:19.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="L_7DJ-57JWnu_mpRgzRD" version="24.1.0" type="github" pages="4">
   <diagram name="Trang-1" id="KtHr_5E2wknJm8B1uxdO">
     <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -295,16 +295,16 @@
         <mxCell id="9NSYeFcuyXZWmgVy-g_J-27" value="K8S Master" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
           <mxGeometry x="760" y="470" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9NSYeFcuyXZWmgVy-g_J-28" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;3&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="9NSYeFcuyXZWmgVy-g_J-28" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;8&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="940" y="430" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9NSYeFcuyXZWmgVy-g_J-29" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;4&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="9NSYeFcuyXZWmgVy-g_J-29" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;9&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="940" y="485" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9NSYeFcuyXZWmgVy-g_J-30" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="9NSYeFcuyXZWmgVy-g_J-30" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;6&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="940" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9NSYeFcuyXZWmgVy-g_J-31" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+        <mxCell id="9NSYeFcuyXZWmgVy-g_J-31" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;7&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
           <mxGeometry x="940" y="240" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9NSYeFcuyXZWmgVy-g_J-33" value="vManager" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
