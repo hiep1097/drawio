@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-09-19T03:45:59.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bLfTk9utwNXi17ZYoFN3" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-09-19T03:46:45.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="29uw2vXetz_dpumOZzOw" version="24.1.0" type="github">
   <diagram name="Trang-1" id="KtHr_5E2wknJm8B1uxdO">
     <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,16 +29,19 @@
           <mxGeometry x="420" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-12" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;4&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="420" y="500" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-13" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="150" width="120" height="40" as="geometry" />
+          <mxGeometry x="420" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-14" value="MongoDB&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="220" width="120" height="40" as="geometry" />
+          <mxGeometry x="420" y="195" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ma864Qg47mfF3DVLuMsx-15" value="MongoDB&lt;div&gt;Arbiter&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="420" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ma864Qg47mfF3DVLuMsx-16" value="MongoDB&lt;div&gt;Arbiter&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="560" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
