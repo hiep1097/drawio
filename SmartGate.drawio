@@ -235,7 +235,7 @@
         <mxCell id="oRz19Ds5r7TsS2FWM0KA-42" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="Close Lane" vertex="1">
           <mxGeometry height="30" width="140" x="1090" y="590" as="geometry" />
         </mxCell>
-        <mxCell id="oRz19Ds5r7TsS2FWM0KA-43" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="Get danh sách Lane" vertex="1">
+        <mxCell id="oRz19Ds5r7TsS2FWM0KA-43" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; Get danh sách Lane" vertex="1">
           <mxGeometry height="30" width="140" x="1090" y="480" as="geometry" />
         </mxCell>
         <mxCell id="oRz19Ds5r7TsS2FWM0KA-44" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="Vehicle Update" vertex="1">
