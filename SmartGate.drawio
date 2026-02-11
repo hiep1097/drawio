@@ -281,11 +281,11 @@
         <mxCell id="oRz19Ds5r7TsS2FWM0KA-61" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;gradientColor=none;strokeColor=#FF0000;width=70;height=30;" value="Chức năng API" vertex="1">
           <mxGeometry height="150" width="140" x="1260" y="-140" as="geometry" />
         </mxCell>
-        <mxCell id="oRz19Ds5r7TsS2FWM0KA-63" edge="1" parent="1" source="oRz19Ds5r7TsS2FWM0KA-38" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.016;entryY=0.887;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=8 4 1 4;fillColor=#e3c800;strokeColor=#B09500;" target="oRz19Ds5r7TsS2FWM0KA-40" value="">
+        <mxCell id="oRz19Ds5r7TsS2FWM0KA-63" edge="1" parent="1" source="oRz19Ds5r7TsS2FWM0KA-38" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.069;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=8 4 1 4;fillColor=#e3c800;strokeColor=#B09500;" target="oRz19Ds5r7TsS2FWM0KA-40" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="880" y="430" />
-              <mxPoint x="880" y="60" />
+              <mxPoint x="880" y="50" />
             </Array>
             <mxPoint x="820" y="360" as="sourcePoint" />
             <mxPoint x="870" y="310" as="targetPoint" />
