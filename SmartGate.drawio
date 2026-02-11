@@ -191,8 +191,8 @@
         </mxCell>
         <mxCell id="oRz19Ds5r7TsS2FWM0KA-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=8 8;strokeWidth=2;fillColor=#e51400;strokeColor=#B20000;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="930" y="560" as="sourcePoint" />
-            <mxPoint x="930" y="10" as="targetPoint" />
+            <mxPoint x="930" y="660" as="sourcePoint" />
+            <mxPoint x="930" y="-110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oRz19Ds5r7TsS2FWM0KA-32" parent="1" style="shape=card;whiteSpace=wrap;html=1;" value="In phiếu&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dịch vụ&lt;/span&gt;" vertex="1">
