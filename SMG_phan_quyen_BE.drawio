@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="3">
   <diagram name="luong tong quan" id="e8z8iVkThyUCuV2n5WE5">
     <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,10 +100,10 @@
         <mxCell id="mCJ9-lGjilofeNVovmZA-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="403 Forbidden" vertex="1">
           <mxGeometry height="30" width="90" x="350" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="mCJ9-lGjilofeNVovmZA-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="method&lt;div&gt;(&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;GET/POST/PUT,...&lt;/b&gt;&lt;/font&gt;)&lt;/div&gt;" vertex="1">
+        <mxCell id="mCJ9-lGjilofeNVovmZA-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="http Method&lt;div&gt;(&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;GET/POST/PUT,...&lt;/b&gt;&lt;/font&gt;)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="460" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="mCJ9-lGjilofeNVovmZA-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="path&lt;div&gt;(&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;/vehicle/weight/{id}&lt;/b&gt;,...&lt;/font&gt;)&lt;/div&gt;" vertex="1">
+        <mxCell id="mCJ9-lGjilofeNVovmZA-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="request path&lt;div&gt;(&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;/vehicle/weight/{id}&lt;/b&gt;,...&lt;/font&gt;)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="460" y="440" as="geometry" />
         </mxCell>
         <mxCell id="mCJ9-lGjilofeNVovmZA-6" edge="1" parent="1" source="YGdP8Ztx03DSeBsn5yOd-14" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="mCJ9-lGjilofeNVovmZA-4" value="">
@@ -125,12 +125,130 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j5vbZ_JHojPhrTeDCXRM" name="luong check permission">
-    <mxGraphModel dx="1542" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SdWagVtd0VBojpi5wEtT-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Function:&amp;nbsp;&lt;/b&gt;&lt;div&gt;Check permission của (method, path) lấy từ request context&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="250" y="60" as="geometry" />
+          <mxGeometry height="70" width="150" x="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s44uwzbrW_9t5o0rIW2P-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Tìm permission code tương ứng theo (method, path)" vertex="1">
+          <mxGeometry height="70" width="150" x="250" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WPsg8kUA7pbRhx9xhF3u" name="Trang-3">
+    <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M6vot8UxKK9226RytHSO-21" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;Permission&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; String _id&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; String groupCode&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; String permissionCode&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="650" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-12" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;PermissionGroup&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; String _id&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; String groupCode&lt;br&gt;&amp;nbsp; ...&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="90" width="180" x="650" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;User&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; _id&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; List&amp;lt;String&amp;gt; roles&amp;nbsp;&lt;br&gt;&amp;nbsp; ...&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;Role&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; String _id&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; String roleCode&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; List&amp;lt;String&amp;gt; permissions&lt;br&gt;&amp;nbsp; ...&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="340" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="764" y="510.0014285714285" as="sourcePoint" />
+            <mxPoint x="920" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="mgmt.gate.vehicle" vertex="1">
+          <mxGeometry height="30" width="60" x="940" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="mgmt.gate.vehicle.view" vertex="1">
+          <mxGeometry height="30" width="60" x="980" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="365.0014285714285" as="sourcePoint" />
+            <mxPoint x="950" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-22" edge="1" parent="1" style="endArrow=none;startArrow=none;html=1;rounded=0;dashed=1;strokeColor=#3333FF;endFill=0;startFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="510" />
+              <mxPoint x="620" y="340" />
+            </Array>
+            <mxPoint x="660" y="510" as="sourcePoint" />
+            <mxPoint x="660" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="325" as="sourcePoint" />
+            <mxPoint x="340" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="650" y="325" as="sourcePoint" />
+            <mxPoint x="520" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-31" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="345.0014285714285" as="sourcePoint" />
+            <mxPoint x="130" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="[ ADMIN, OPERATOR ]" vertex="1">
+          <mxGeometry height="30" width="140" x="60" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-34" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414" y="235" as="sourcePoint" />
+            <mxPoint x="414" y="329.9985714285715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="ADMIN" vertex="1">
+          <mxGeometry height="30" width="140" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="429.58" y="375" as="sourcePoint" />
+            <mxPoint x="430" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;labelPosition=center;verticalLabelPosition=middle;textDirection=ltr;" value="[&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;mgmt .gate.vehicle.view,&amp;nbsp; &amp;nbsp;mgmt.gate.vehicle.create,&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;mgmt.gate.vehicle.update,&lt;/div&gt;&lt;div&gt;mgmt.gate.vehicle.delete&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="170" x="350" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-38" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;User&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; String _id&lt;br&gt;&amp;nbsp; ...&lt;br&gt;&amp;nbsp; List&amp;lt;String&amp;gt; roles&amp;nbsp;&lt;br&gt;&amp;nbsp; ...&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-39" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;ApiPermission&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; String _id&lt;br&gt;&amp;nbsp; String httpMethod&lt;br&gt;&amp;nbsp; String urlPattern&lt;br&gt;&amp;nbsp; String permissionCode&lt;br&gt;&amp;nbsp; ...&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="650" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="M6vot8UxKK9226RytHSO-40" edge="1" parent="1" style="endArrow=none;startArrow=none;html=1;rounded=0;dashed=1;strokeColor=#3333FF;endFill=0;startFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="370" />
+              <mxPoint x="610" y="160" />
+            </Array>
+            <mxPoint x="660" y="370" as="sourcePoint" />
+            <mxPoint x="660" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
