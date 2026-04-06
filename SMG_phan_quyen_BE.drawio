@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="2">
-  <diagram name="Trang-1" id="e8z8iVkThyUCuV2n5WE5">
-    <mxGraphModel dx="1542" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="luong tong quan" id="e8z8iVkThyUCuV2n5WE5">
+    <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,11 +124,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="j5vbZ_JHojPhrTeDCXRM" name="Trang-2">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="j5vbZ_JHojPhrTeDCXRM" name="luong check permission">
+    <mxGraphModel dx="1542" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SdWagVtd0VBojpi5wEtT-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Function:&amp;nbsp;&lt;/b&gt;&lt;div&gt;Check permission của (method, path) lấy từ request context&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="250" y="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
