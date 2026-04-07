@@ -330,6 +330,12 @@
         <mxCell id="OLFF-5kGh4pS1G_SFsH--20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="mgmt.gate.vehicle" vertex="1">
           <mxGeometry height="30" width="60" x="940" y="790" as="geometry" />
         </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#3333FF;" value="N" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#3333FF;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="800" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
