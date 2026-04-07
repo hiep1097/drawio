@@ -159,7 +159,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j5vbZ_JHojPhrTeDCXRM" name="Luồng check permission">
-    <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2112" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -376,6 +376,9 @@
             <mxPoint x="430" y="810" as="sourcePoint" />
             <mxPoint x="480" y="760" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-19EEoYvHgrzbXiyJ5NA-56" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=30;" value="hasPermission" vertex="1">
+          <mxGeometry height="280" width="680" x="-70" y="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
