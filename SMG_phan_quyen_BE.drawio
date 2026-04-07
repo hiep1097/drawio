@@ -208,13 +208,10 @@
         <mxCell id="-19EEoYvHgrzbXiyJ5NA-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Là service account?" vertex="1">
           <mxGeometry height="70" width="101.88" x="244.06" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="-19EEoYvHgrzbXiyJ5NA-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="By pass" vertex="1">
-          <mxGeometry height="40" width="150" x="430" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="-19EEoYvHgrzbXiyJ5NA-7" edge="1" parent="1" source="-19EEoYvHgrzbXiyJ5NA-4" style="endArrow=classic;html=1;rounded=0;" target="-19EEoYvHgrzbXiyJ5NA-5" value="">
+        <mxCell id="-19EEoYvHgrzbXiyJ5NA-7" edge="1" parent="1" source="-19EEoYvHgrzbXiyJ5NA-4" style="endArrow=classic;html=1;rounded=0;" target="FNgQWFr3_aniusKaKyAD-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="410" y="340" as="sourcePoint" />
-            <mxPoint x="460" y="290" as="targetPoint" />
+            <mxPoint x="432.5" y="485" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-19EEoYvHgrzbXiyJ5NA-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
@@ -232,9 +229,9 @@
             <mxPoint x="460" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-19EEoYvHgrzbXiyJ5NA-11" edge="1" parent="1" source="-19EEoYvHgrzbXiyJ5NA-5" style="endArrow=classic;html=1;rounded=0;" target="-19EEoYvHgrzbXiyJ5NA-9" value="">
+        <mxCell id="-19EEoYvHgrzbXiyJ5NA-11" edge="1" parent="1" source="FNgQWFr3_aniusKaKyAD-1" style="endArrow=classic;html=1;rounded=0;" target="-19EEoYvHgrzbXiyJ5NA-9" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="410" y="420" as="sourcePoint" />
+            <mxPoint x="720" y="485" as="sourcePoint" />
             <mxPoint x="460" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -389,6 +386,30 @@
         </mxCell>
         <mxCell id="-19EEoYvHgrzbXiyJ5NA-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="List&amp;lt;String&amp;gt; permissions" vertex="1">
           <mxGeometry height="30" width="150" x="440" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="FNgQWFr3_aniusKaKyAD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="By pass" vertex="1">
+          <mxGeometry height="40" width="95" x="650" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="FNgQWFr3_aniusKaKyAD-3" edge="1" parent="1" source="FNgQWFr3_aniusKaKyAD-4" style="endArrow=classic;html=1;rounded=0;" target="FNgQWFr3_aniusKaKyAD-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="485" as="sourcePoint" />
+            <mxPoint x="697" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNgQWFr3_aniusKaKyAD-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="client_id nằm trong allowlist" vertex="1">
+          <mxGeometry height="70" width="101.88" x="454.06" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FNgQWFr3_aniusKaKyAD-6" edge="1" parent="1" source="FNgQWFr3_aniusKaKyAD-4" style="endArrow=classic;html=1;rounded=0;" target="-19EEoYvHgrzbXiyJ5NA-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="490" as="sourcePoint" />
+            <mxPoint x="588" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNgQWFr3_aniusKaKyAD-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="FNgQWFr3_aniusKaKyAD-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
