@@ -1,5 +1,5 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="3">
-  <diagram name="luong tong quan" id="e8z8iVkThyUCuV2n5WE5">
+  <diagram name="Luồng tổng quan" id="e8z8iVkThyUCuV2n5WE5">
     <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -124,7 +124,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="j5vbZ_JHojPhrTeDCXRM" name="luong check permission">
+  <diagram id="j5vbZ_JHojPhrTeDCXRM" name="Luồng check permission">
     <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -138,7 +138,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="WPsg8kUA7pbRhx9xhF3u" name="Trang-3">
+  <diagram id="WPsg8kUA7pbRhx9xhF3u" name="thiết kế DB">
     <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -240,7 +240,7 @@
         <mxCell id="M6vot8UxKK9226RytHSO-39" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;div style=&quot;box-sizing: border-box; width: 100%; background: rgb(228, 228, 228); padding: 2px;&quot;&gt;ApiPermission&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp; String _id&lt;br&gt;&amp;nbsp; String httpMethod&lt;br&gt;&amp;nbsp; String urlPattern&lt;br&gt;&amp;nbsp; String permissionCode&lt;br&gt;&amp;nbsp; ...&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
           <mxGeometry height="110" width="180" x="650" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="M6vot8UxKK9226RytHSO-40" edge="1" parent="1" style="endArrow=none;startArrow=none;html=1;rounded=0;dashed=1;strokeColor=#3333FF;endFill=0;startFill=0;" value="">
+        <mxCell id="M6vot8UxKK9226RytHSO-40" edge="1" parent="1" style="endArrow=none;startArrow=none;html=1;rounded=0;dashed=1;strokeColor=#00CC00;endFill=0;startFill=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="610" y="370" />
