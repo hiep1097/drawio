@@ -250,6 +250,24 @@
             <mxPoint x="660" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="GET" vertex="1">
+          <mxGeometry height="30" width="60" x="900" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="760" y="130.0014285714285" as="sourcePoint" />
+            <mxPoint x="910" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="/gate/vehicle/*" vertex="1">
+          <mxGeometry height="30" width="60" x="930" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="750" y="144.58142857142852" as="sourcePoint" />
+            <mxPoint x="910" y="144.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
