@@ -139,7 +139,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WPsg8kUA7pbRhx9xhF3u" name="thiết kế DB">
-    <mxGraphModel dx="1063" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1285" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,6 +311,24 @@
             <mxPoint x="660" y="810" as="sourcePoint" />
             <mxPoint x="660" y="640" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="mgmt.gate.vehicle.view" vertex="1">
+          <mxGeometry height="30" width="60" x="980" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="790" y="670.0014285714285" as="sourcePoint" />
+            <mxPoint x="950" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;fontColor=#FF0000;strokeColor=#FF0000;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="764" y="810.0014285714285" as="sourcePoint" />
+            <mxPoint x="920" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OLFF-5kGh4pS1G_SFsH--20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="mgmt.gate.vehicle" vertex="1">
+          <mxGeometry height="30" width="60" x="940" y="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
