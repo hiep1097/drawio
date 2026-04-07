@@ -396,8 +396,8 @@
             <mxPoint x="697" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FNgQWFr3_aniusKaKyAD-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="client_id nằm trong allowlist" vertex="1">
-          <mxGeometry height="70" width="101.88" x="454.06" y="450" as="geometry" />
+        <mxCell id="FNgQWFr3_aniusKaKyAD-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="client_id nằm&amp;nbsp;&lt;div&gt;trong allowlist?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="105.94" x="452.03000000000003" y="445" as="geometry" />
         </mxCell>
         <mxCell id="FNgQWFr3_aniusKaKyAD-6" edge="1" parent="1" source="FNgQWFr3_aniusKaKyAD-4" style="endArrow=classic;html=1;rounded=0;" target="-19EEoYvHgrzbXiyJ5NA-28" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
