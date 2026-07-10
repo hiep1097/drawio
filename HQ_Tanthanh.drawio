@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="9ZhqprDkKUS5sE4_xfGJ">
+    <mxGraphModel dx="1542" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u7z7iNpgxg3q4ndcAHWC-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="210" width="270" x="410" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="u7z7iNpgxg3q4ndcAHWC-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQL Server" vertex="1">
+          <mxGeometry height="70" width="150" x="470" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="u7z7iNpgxg3q4ndcAHWC-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 17.3333px; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;Hệ thống Hải quan điện tử KV6&lt;/span&gt;" vertex="1">
+          <mxGeometry height="160" width="240" x="120" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
